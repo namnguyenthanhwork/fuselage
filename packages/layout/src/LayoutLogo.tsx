@@ -1,5 +1,5 @@
 import { Box } from '@rocket.chat/fuselage';
-import { RocketChatLogo } from '@yuu.chat/logo';
+import { RocketChatLogo } from '@yuu16/logo';
 import type { ReactElement } from 'react';
 
 import { useDarkMode } from './DarkModeProvider';

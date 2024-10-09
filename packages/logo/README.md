@@ -1,4 +1,4 @@
-# `@yuu.chat/logo`
+# `@yuu16/logo`
 
 > Yuu.Chat logo package
 
@@ -24,14 +24,14 @@ npm i react react-dom
 yarn add react react-dom
 ```
 
-Add `@yuu.chat/logo` as a dependency:
+Add `@yuu16/logo` as a dependency:
 
 ```sh
-npm i @yuu.chat/logo
+npm i @yuu16/logo
 
 # or, if you are using yarn:
 
-yarn add @yuu.chat/logo
+yarn add @yuu16/logo
 ```
 
 <!--/install-->

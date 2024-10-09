@@ -68,7 +68,7 @@ jobs:
         with:
           node-version: "22.2.0"
           registry-url: "https://registry.npmjs.org"
-          scope: "@rocket.chat"
+          scope: "@yuu16"
           cache: "yarn"
       - uses: actions/cache@v3
         id: yarn-cache
