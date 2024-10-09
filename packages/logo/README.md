@@ -1,14 +1,6 @@
-<!--header-->
+# `@yuu.chat/logo`
 
-<p align="center">
-  <a href="https://rocket.chat" title="Rocket.Chat">
-    <img src="https://github.com/RocketChat/Rocket.Chat.Artwork/raw/master/Logos/2020/png/logo-horizontal-red.png" alt="Rocket.Chat" />
-  </a>
-</p>
-
-# `@rocket.chat/logo`
-
-> Rocket.Chat logo package
+> Yuu.Chat logo package
 
 ---
 
@@ -32,14 +24,14 @@ npm i react react-dom
 yarn add react react-dom
 ```
 
-Add `@rocket.chat/logo` as a dependency:
+Add `@yuu.chat/logo` as a dependency:
 
 ```sh
-npm i @rocket.chat/logo
+npm i @yuu.chat/logo
 
 # or, if you are using yarn:
 
-yarn add @rocket.chat/logo
+yarn add @yuu.chat/logo
 ```
 
 <!--/install-->

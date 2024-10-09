@@ -1,27 +1,26 @@
 {
-  "name": "@rocket.chat/logo",
+  "name": "@yuu.chat/logo",
   "version": "0.31.30",
-  "description": "Rocket.Chat logo package",
+  "description": "Yuu.Chat logo package",
   "keywords": [
-    "rocketchat",
-    "rocketchat logo"
+    "yuuchat logo"
   ],
   "author": {
-    "name": "Rocket.Chat",
-    "url": "https://rocket.chat/"
+    "name": "Yuu.Chat",
+    "url": "https://yuu.chat/"
   },
-  "homepage": "https://github.com/RocketChat/fuselage#readme",
+  "homepage": "https://github.com/namnguyenthanhwork/fuselage#readme",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RocketChat/fuselage.git",
+    "url": "git+https://github.com/namnguyenthanhwork/fuselage.git",
     "directory": "packages/logo"
   },
   "bugs": {
-    "url": "https://github.com/RocketChat/fuselage/issues"
+    "url": "https://github.com/namnguyenthanhwork/fuselage/issues"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
