@@ -1,5 +1,5 @@
-import type { SelectOption } from '@rocket.chat/fuselage';
-import { BackgroundLayer } from '@rocket.chat/layout';
+import type { SelectOption } from '@boolfly.chat/fuselage';
+import { BackgroundLayer } from '@boolfly.chat/layout';
 import type { ReactElement, ReactNode } from 'react';
 import type { SubmitHandler } from 'react-hook-form';
 

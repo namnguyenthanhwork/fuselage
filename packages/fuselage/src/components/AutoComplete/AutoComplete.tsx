@@ -1,5 +1,8 @@
 // @ts-nocheck
-import { useEffectEvent, useResizeObserver } from '@rocket.chat/fuselage-hooks';
+import {
+  useEffectEvent,
+  useResizeObserver,
+} from '@boolfly.chat/fuselage-hooks';
 import type {
   AllHTMLAttributes,
   ComponentProps,

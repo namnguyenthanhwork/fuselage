@@ -2,25 +2,25 @@
 to: packages/<%=package%>/package.json
 ---
 {
-  "name": "@rocket.chat/<%=package%>",
+  "name": "@boolfly.chat/<%=package%>",
   "version": "<%=version%>",
   "description": "<%=description%>",
   "author": {
-    "name": "Rocket.Chat",
-    "url": "https://rocket.chat/"
+    "name": "Boolfly.Chat",
+    "url": "https://subscription.boolfly.com/"
   },
-  "homepage": "https://github.com/RocketChat/fuselage#readme",
+  "homepage": "https://github.com/boolfly/fuselage#readme",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RocketChat/fuselage.git",
+    "url": "git+https://github.com/boolfly/fuselage.git",
     "directory": "packages/<%=package%>"
   },
   "bugs": {
-    "url": "https://github.com/RocketChat/fuselage/issues"
+    "url": "https://github.com/boolfly/fuselage/issues"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -39,8 +39,8 @@ to: packages/<%=package%>/package.json
     "docs": "typedoc"
   },
   "devDependencies": {
-    "@rocket.chat/eslint-config-alt": "workspace:~",
-    "@rocket.chat/prettier-config": "workspace:~",
+    "@boolfly.chat/eslint-config-alt": "workspace:~",
+    "@boolfly.chat/prettier-config": "workspace:~",
     "@types/jest": "~27.4.0",
     "eslint": "~8.8.0",
     "jest": "~27.5.1",
@@ -52,12 +52,12 @@ to: packages/<%=package%>/package.json
     "typescript": "~5.5.4"
   },
   "eslintConfig": {
-    "extends": "@rocket.chat/eslint-config-alt/typescript",
+    "extends": "@boolfly.chat/eslint-config-alt/typescript",
     "env": {
       "jest": true
     }
   },
-  "prettier": "@rocket.chat/prettier-config/fuselage",
+  "prettier": "@boolfly.chat/prettier-config/fuselage",
   "jest": {
     "preset": "ts-jest",
     "errorOnDeprecated": true,

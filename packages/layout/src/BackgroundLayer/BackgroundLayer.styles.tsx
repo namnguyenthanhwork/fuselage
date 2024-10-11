@@ -1,4 +1,4 @@
-import styled from '@rocket.chat/styled';
+import styled from '@boolfly.chat/styled';
 
 const filterWrapperProps = ({
   backgroundColor: _backgroundColor,

@@ -1,4 +1,4 @@
-import { useResizeObserver } from '@rocket.chat/fuselage-hooks';
+import { useResizeObserver } from '@boolfly.chat/fuselage-hooks';
 import type { ComponentProps, ReactElement, ReactNode } from 'react';
 
 import Box from '../Box';

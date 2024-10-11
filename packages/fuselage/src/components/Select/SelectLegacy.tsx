@@ -3,7 +3,7 @@ import {
   useEffectEvent,
   useResizeObserver,
   useOutsideClick,
-} from '@rocket.chat/fuselage-hooks';
+} from '@boolfly.chat/fuselage-hooks';
 import type {
   ComponentProps,
   DependencyList,

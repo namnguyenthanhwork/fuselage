@@ -1,4 +1,4 @@
-import type { Keys as IconKeys } from '@rocket.chat/icons';
+import type { Keys as IconKeys } from '@boolfly.chat/icons';
 import { isValidElement, type ComponentProps, type ReactElement } from 'react';
 
 import { Icon } from '../../Icon';

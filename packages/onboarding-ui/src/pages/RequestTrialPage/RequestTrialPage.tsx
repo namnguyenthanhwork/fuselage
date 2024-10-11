@@ -1,7 +1,7 @@
 import {
   BackgroundLayer,
   FormPageLayout as FormLayout,
-} from '@rocket.chat/layout';
+} from '@boolfly.chat/layout';
 import type { ComponentProps, ReactElement } from 'react';
 import { useTranslation, Trans } from 'react-i18next';
 

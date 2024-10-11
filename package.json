@@ -1,5 +1,5 @@
 {
-  "name": "@rocket.chat/fuselage-monorepo",
+  "name": "@boolfly.chat/fuselage-monorepo",
   "private": true,
   "workspaces": [
     "packages/*",
@@ -45,6 +45,6 @@
   },
   "packageManager": "yarn@4.4.0",
   "eslintConfig": {
-    "extends": "@rocket.chat/eslint-config-alt"
+    "extends": "@boolfly.chat/eslint-config-alt"
   }
 }

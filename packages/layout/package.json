@@ -1,23 +1,23 @@
 {
-  "name": "@rocket.chat/layout",
+  "name": "@boolfly.chat/layout",
   "version": "0.31.27",
   "description": "Shared Application Layout Components",
   "author": {
-    "name": "Rocket.Chat",
-    "url": "https://rocket.chat/"
+    "name": "Boolfly.Chat",
+    "url": "https://subscription.boolfly.com/"
   },
-  "homepage": "https://github.com/RocketChat/fuselage#readme",
+  "homepage": "https://github.com/boolfly/fuselage#readme",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RocketChat/fuselage.git",
+    "url": "git+https://github.com/boolfly/fuselage.git",
     "directory": "packages/layout"
   },
   "bugs": {
-    "url": "https://github.com/RocketChat/fuselage/issues"
+    "url": "https://github.com/boolfly/fuselage/issues"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -39,10 +39,10 @@
     "bump-next": "bump-next"
   },
   "devDependencies": {
-    "@rocket.chat/eslint-config-alt": "workspace:~",
-    "@rocket.chat/fuselage": "workspace:~",
-    "@rocket.chat/fuselage-tokens": "workspace:~",
-    "@rocket.chat/prettier-config": "workspace:~",
+    "@boolfly.chat/eslint-config-alt": "workspace:~",
+    "@boolfly.chat/fuselage": "workspace:~",
+    "@boolfly.chat/fuselage-tokens": "workspace:~",
+    "@boolfly.chat/prettier-config": "workspace:~",
     "@storybook/addon-essentials": "~8.2.7",
     "@storybook/addon-webpack5-compiler-swc": "~1.0.5",
     "@storybook/react": "~8.2.7",
@@ -68,18 +68,18 @@
     "typescript": "~5.5.4"
   },
   "peerDependencies": {
-    "@rocket.chat/fuselage": "*",
+    "@boolfly.chat/fuselage": "*",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-i18next": "~11.15.4"
   },
   "eslintConfig": {
-    "extends": "@rocket.chat/eslint-config-alt/typescript",
+    "extends": "@boolfly.chat/eslint-config-alt/typescript",
     "env": {
       "jest": true
     }
   },
-  "prettier": "@rocket.chat/prettier-config/fuselage",
+  "prettier": "@boolfly.chat/prettier-config/fuselage",
   "volta": {
     "extends": "../../package.json"
   }

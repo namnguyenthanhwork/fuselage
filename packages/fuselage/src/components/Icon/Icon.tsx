@@ -1,5 +1,5 @@
-import type { Keys } from '@rocket.chat/icons';
-import nameToCharacterMapping from '@rocket.chat/icons';
+import type { Keys } from '@boolfly.chat/icons';
+import nameToCharacterMapping from '@boolfly.chat/icons';
 import type { ComponentProps, Ref } from 'react';
 import { forwardRef } from 'react';
 

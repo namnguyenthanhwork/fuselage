@@ -1,4 +1,4 @@
-import type { Keys as IconName } from '@rocket.chat/icons';
+import type { Keys as IconName } from '@boolfly.chat/icons';
 import type { HTMLAttributes, ReactNode } from 'react';
 
 import { Icon } from '../Icon';

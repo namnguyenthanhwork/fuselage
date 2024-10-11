@@ -1,10 +1,10 @@
-import { Box, Button } from '@rocket.chat/fuselage';
-import colors from '@rocket.chat/fuselage-tokens/colors.json';
+import { Box, Button } from '@boolfly.chat/fuselage';
+import colors from '@boolfly.chat/fuselage-tokens/colors.json';
 import {
   VerticalWizardLayout,
   VerticalWizardLayoutTitle,
   VerticalWizardLayoutForm,
-} from '@rocket.chat/layout';
+} from '@boolfly.chat/layout';
 import type { ReactElement } from 'react';
 import { Trans, useTranslation } from 'react-i18next';
 

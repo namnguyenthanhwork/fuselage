@@ -1,7 +1,9 @@
 import { extname } from 'path';
+
 import { ESLint } from 'eslint';
-import stylelint from 'stylelint';
 import prettier from 'prettier';
+import stylelint from 'stylelint';
+
 import { encodeJson } from './json.mjs';
 
 export const runEslint = (path) => async (source) => {

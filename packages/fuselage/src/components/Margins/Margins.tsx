@@ -1,4 +1,4 @@
-import { css } from '@rocket.chat/css-in-js';
+import { css } from '@boolfly.chat/css-in-js';
 import type { ComponentProps, PropsWithChildren } from 'react';
 import { useCallback } from 'react';
 

@@ -11,8 +11,8 @@ import {
   FieldLabel,
   FieldRow,
   FieldError,
-} from '@rocket.chat/fuselage';
-import { Form } from '@rocket.chat/layout';
+} from '@boolfly.chat/fuselage';
+import { Form } from '@boolfly.chat/layout';
 import type { ReactElement } from 'react';
 import { useEffect } from 'react';
 import type { SubmitHandler, Validate } from 'react-hook-form';

@@ -1,20 +1,20 @@
 {
-  "name": "@rocket.chat/eslint-config-alt",
-  "description": "ESLint configuration for Rocket.Chat repositories",
+  "name": "@boolfly.chat/eslint-config-alt",
+  "description": "ESLint configuration for Boolfly.Chat repositories",
   "version": "0.31.25",
   "author": {
-    "name": "Rocket.Chat",
-    "url": "https://rocket.chat/"
+    "name": "Boolfly.Chat",
+    "url": "https://subscription.boolfly.com/"
   },
   "license": "MIT",
-  "homepage": "https://github.com/RocketChat/fuselage#readme",
+  "homepage": "https://github.com/boolfly/fuselage#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RocketChat/fuselage.git",
+    "url": "git+https://github.com/boolfly/fuselage.git",
     "directory": "packages/eslint-config-alt"
   },
   "bugs": {
-    "url": "https://github.com/RocketChat/fuselage/issues"
+    "url": "https://github.com/boolfly/fuselage/issues"
   },
   "main": "minimal/index.js",
   "files": [

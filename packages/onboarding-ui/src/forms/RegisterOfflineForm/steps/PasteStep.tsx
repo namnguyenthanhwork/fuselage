@@ -1,6 +1,6 @@
-import { Box, Button, ButtonGroup, Scrollable } from '@rocket.chat/fuselage';
-import { useBreakpoints } from '@rocket.chat/fuselage-hooks';
-import { Form } from '@rocket.chat/layout';
+import { Box, Button, ButtonGroup, Scrollable } from '@boolfly.chat/fuselage';
+import { useBreakpoints } from '@boolfly.chat/fuselage-hooks';
+import { Form } from '@boolfly.chat/layout';
 import type { ReactElement } from 'react';
 import { useFormContext } from 'react-hook-form';
 import { Trans, useTranslation } from 'react-i18next';

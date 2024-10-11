@@ -29,23 +29,23 @@ export const buildCss = () =>
   Promise.resolve(
     `
       @font-face {
-        font-family: 'RocketChat';
+        font-family: 'BoolflyChat';
         font-style: normal;
         font-weight: 400;
         font-display: auto;
 
-        src: url('./font/rocketchat.eot');
+        src: url('./font/boolflychat.eot');
         src:
-          url('./font/rocketchat.eot?#iefix') format('embedded-opentype'),
-          url('./font/rocketchat.woff2') format('woff2'),
-          url('./font/rocketchat.woff') format('woff'),
-          url('./font/rocketchat.ttf') format('truetype'),
-          url('./font/rocketchat.svg#RocketChat') format('svg');
+          url('./font/boolflychat.eot?#iefix') format('embedded-opentype'),
+          url('./font/boolflychat.woff2') format('woff2'),
+          url('./font/boolflychat.woff') format('woff'),
+          url('./font/boolflychat.ttf') format('truetype'),
+          url('./font/boolflychat.svg#BoolflyChat') format('svg');
       }
     `
   )
-    .then(runStylelint('rocketchat.css'))
-    .then(writeSource('dist/rocketchat.css'));
+    .then(runStylelint('boolflychat.css'))
+    .then(writeSource('dist/boolflychat.css'));
 
 const fromIconDescriptorsToCharacters = (icons) =>
   getMappedGlyphs()
@@ -74,19 +74,19 @@ export const buildFont = (icons) =>
   Promise.resolve(icons)
     .then(filterOtherIconsOut)
     .then(createSvgBuffer)
-    .then(writeBinary('./dist/font/rocketchat.svg'))
+    .then(writeBinary('./dist/font/boolflychat.svg'))
     .then(createTtfBuffer)
-    .then(writeBinary('./dist/font/rocketchat.ttf'))
+    .then(writeBinary('./dist/font/boolflychat.ttf'))
     .then((ttfBuffer) =>
       Promise.all([
         createWoffBuffer(ttfBuffer).then(
-          writeBinary('./dist/font/rocketchat.woff')
+          writeBinary('./dist/font/boolflychat.woff')
         ),
         createWoff2Buffer(ttfBuffer).then(
-          writeBinary('./dist/font/rocketchat.woff2')
+          writeBinary('./dist/font/boolflychat.woff2')
         ),
         createEotBuffer(ttfBuffer).then(
-          writeBinary('./dist/font/rocketchat.eot')
+          writeBinary('./dist/font/boolflychat.eot')
         ),
       ])
     );

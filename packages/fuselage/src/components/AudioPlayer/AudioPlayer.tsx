@@ -1,4 +1,4 @@
-import { useMergedRefs, useResizeObserver } from '@rocket.chat/fuselage-hooks';
+import { useMergedRefs, useResizeObserver } from '@boolfly.chat/fuselage-hooks';
 import { useState, useRef, forwardRef } from 'react';
 
 import { Box, Button, IconButton, Margins } from '../..';

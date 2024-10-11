@@ -8,12 +8,12 @@ import { npmDownloadsBadge } from '../badges/npmDownloadsBadge.mjs';
 import { npmPeerDepVersionBadge } from '../badges/npmPeerDepVersionBadge.mjs';
 import { npmVersionBadge } from '../badges/npmVersionBadge.mjs';
 import { storybookBadge } from '../badges/storybookBadge.mjs';
-import { rocketChatLogo } from '../rocketChatLogo.mjs';
+import { boolflyChatLogo } from '../boolflyChatLogo.mjs';
 
 export const header = (pkg) =>
   [
     outdent`
-    ${rocketChatLogo}
+    ${boolflyChatLogo}
 
     # \`${pkg.name}\`
   `,

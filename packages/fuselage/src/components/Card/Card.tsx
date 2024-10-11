@@ -1,4 +1,4 @@
-import { useBreakpoints } from '@rocket.chat/fuselage-hooks';
+import { useBreakpoints } from '@boolfly.chat/fuselage-hooks';
 import type { AllHTMLAttributes } from 'react';
 
 import Box from '../Box/Box';

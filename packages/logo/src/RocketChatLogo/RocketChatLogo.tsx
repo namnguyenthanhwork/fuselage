@@ -1,4 +1,4 @@
-import colors from '@rocket.chat/fuselage-tokens/colors.json';
+import colors from '@boolfly.chat/fuselage-tokens/colors.json';
 import type { ReactElement, SVGAttributes } from 'react';
 
 type RocketChatLogoProps = {

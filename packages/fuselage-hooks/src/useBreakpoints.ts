@@ -1,4 +1,4 @@
-import breakpointsDefinitions from '@rocket.chat/fuselage-tokens/breakpoints.json';
+import breakpointsDefinitions from '@boolfly.chat/fuselage-tokens/breakpoints.json';
 import { useMemo } from 'react';
 
 import { useMediaQueries } from './useMediaQueries';

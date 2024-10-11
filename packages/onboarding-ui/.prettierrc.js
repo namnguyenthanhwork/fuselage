@@ -1,1 +1,1 @@
-module.exports = require('@rocket.chat/prettier-config/fuselage');
+module.exports = require('@boolfly.chat/prettier-config/fuselage');

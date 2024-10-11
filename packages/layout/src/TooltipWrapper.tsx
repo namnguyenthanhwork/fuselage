@@ -2,8 +2,8 @@ import {
   AnimatedVisibility,
   PositionAnimated,
   Tooltip,
-} from '@rocket.chat/fuselage';
-import { useDebouncedState, useUniqueId } from '@rocket.chat/fuselage-hooks';
+} from '@boolfly.chat/fuselage';
+import { useDebouncedState, useUniqueId } from '@boolfly.chat/fuselage-hooks';
 import type {
   ComponentProps,
   Dispatch,

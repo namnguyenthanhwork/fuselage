@@ -1,4 +1,4 @@
-import type { Keys } from '@rocket.chat/icons';
+import type { Keys } from '@boolfly.chat/icons';
 import type { AllHTMLAttributes } from 'react';
 
 import { Icon } from '../Icon';

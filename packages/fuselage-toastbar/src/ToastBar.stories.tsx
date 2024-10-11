@@ -1,4 +1,4 @@
-import { Button } from '@rocket.chat/fuselage';
+import { Button } from '@boolfly.chat/fuselage';
 import type { Meta, StoryFn } from '@storybook/react';
 import { useEffect, useState } from 'react';
 

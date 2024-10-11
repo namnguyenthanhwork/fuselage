@@ -1,4 +1,4 @@
-import { useMergedRefs } from '@rocket.chat/fuselage-hooks';
+import { useMergedRefs } from '@boolfly.chat/fuselage-hooks';
 import type {
   ComponentProps,
   ForwardRefExoticComponent,

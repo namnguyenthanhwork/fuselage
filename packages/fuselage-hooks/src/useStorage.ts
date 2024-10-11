@@ -1,4 +1,4 @@
-import { Emitter } from '@rocket.chat/emitter';
+import { Emitter } from '@boolfly.chat/emitter';
 import type { Dispatch, SetStateAction } from 'react';
 import { useRef, useState, useEffect, useCallback } from 'react';
 

@@ -1,5 +1,5 @@
-import surface from '@rocket.chat/fuselage-tokens/dist/surface.json';
-import { DarkModeProvider } from '@rocket.chat/layout';
+import surface from '@boolfly.chat/fuselage-tokens/dist/surface.json';
+import { DarkModeProvider } from '@boolfly.chat/layout';
 import type { Preview } from '@storybook/react';
 import { themes } from '@storybook/theming';
 import { Suspense } from 'react';
@@ -10,9 +10,9 @@ import ToastBarProvider from '../src/ToastBarProvider';
 import DocsContainer from './DocsContainer';
 import logo from './logo.svg';
 
-import '@rocket.chat/fuselage/dist/fuselage.css';
-import '@rocket.chat/icons/dist/rocketchat.css';
-import '@rocket.chat/fuselage-polyfills';
+import '@boolfly.chat/fuselage/dist/fuselage.css';
+import '@boolfly.chat/icons/dist/boolflychat.css';
+import '@boolfly.chat/fuselage-polyfills';
 
 export default {
   parameters: {

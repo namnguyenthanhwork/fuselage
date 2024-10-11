@@ -1,4 +1,4 @@
-import styled from '@rocket.chat/styled';
+import styled from '@boolfly.chat/styled';
 
 import { sans } from '../helpers/tokenFontFamilies';
 

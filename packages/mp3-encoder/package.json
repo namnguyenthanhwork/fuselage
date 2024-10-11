@@ -1,23 +1,23 @@
 {
-  "name": "@rocket.chat/mp3-encoder",
+  "name": "@boolfly.chat/mp3-encoder",
   "version": "0.31.25",
   "description": "A LAME encoder to be used in web workers",
-  "homepage": "https://rocketchat.github.io/Rocket.Chat.Fuselage/",
+  "homepage": "https://github.com/boolfly/fuselage#readme",
   "author": {
-    "name": "Rocket.Chat",
-    "url": "https://rocket.chat/"
+    "name": "Boolfly.Chat",
+    "url": "https://subscription.boolfly.com/"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RocketChat/fuselage.git",
+    "url": "git+https://github.com/boolfly/fuselage.git",
     "directory": "packages/mp3-encoder"
   },
   "bugs": {
-    "url": "https://github.com/RocketChat/fuselage/issues"
+    "url": "https://github.com/boolfly/fuselage/issues"
   },
   "keywords": [
-    "rocket.chat",
+    "boolfly.chat",
     "mp3",
     "encoder"
   ],
@@ -44,8 +44,8 @@
     "@babel/plugin-transform-runtime": "~7.21.4",
     "@babel/preset-env": "~7.21.4",
     "@babel/preset-typescript": "~7.21.4",
-    "@rocket.chat/eslint-config-alt": "workspace:~",
-    "@rocket.chat/prettier-config": "workspace:~",
+    "@boolfly.chat/eslint-config-alt": "workspace:~",
+    "@boolfly.chat/prettier-config": "workspace:~",
     "@rollup/plugin-commonjs": "~24.1.0",
     "@rollup/plugin-node-resolve": "~15.0.2",
     "@rollup/plugin-typescript": "~11.1.0",

@@ -1,5 +1,5 @@
-import { Icon } from '@rocket.chat/fuselage';
-import { TooltipWrapper } from '@rocket.chat/layout';
+import { Icon } from '@boolfly.chat/fuselage';
+import { TooltipWrapper } from '@boolfly.chat/layout';
 import type { ReactElement } from 'react';
 
 type InformationTooltipTriggerProps = {

@@ -1,4 +1,4 @@
-import { cssSupports } from '@rocket.chat/css-supports';
+import { cssSupports } from '@boolfly.chat/css-supports';
 
 const cssSupportsVariable = cssSupports('(--foo: bar)');
 

@@ -5,13 +5,13 @@
     "resolve-workspace-deps": "run-s .:resolve-workspace-deps:run-script .:resolve-workspace-deps:update-lockfile .:resolve-workspace-deps:git-commit",
     ".:resolve-workspace-deps:run-script": "ts-node src/resolve-workspace-deps.ts",
     ".:resolve-workspace-deps:update-lockfile": "cross-env YARN_ENABLE_IMMUTABLE_INSTALLS=false yarn",
-    ".:resolve-workspace-deps:git-commit": "git -c user.name='Rocket.Chat' -c user.email='support@rocket.chat' commit --all --amend --no-edit --no-verify",
+    ".:resolve-workspace-deps:git-commit": "git -c user.name='boolfly' -c user.email='support@boolfly.chat' commit --all --amend --no-edit --no-verify",
     "lint": "eslint .",
     "lint-and-fix": "eslint --fix ."
   },
   "devDependencies": {
-    "@rocket.chat/eslint-config-alt": "workspace:~",
-    "@rocket.chat/prettier-config": "workspace:~",
+    "@boolfly.chat/eslint-config-alt": "workspace:~",
+    "@boolfly.chat/prettier-config": "workspace:~",
     "@types/node": "~14.18.42",
     "@typescript-eslint/parser": "~5.58.0",
     "cross-env": "^7.0.3",

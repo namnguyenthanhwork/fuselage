@@ -10,9 +10,9 @@ import pkg from './package.json';
 
 const globals = {
   '@emotion/hash': 'hash',
-  '@rocket.chat/memo': 'memo',
-  '@rocket.chat/css-supports': 'cssSupports',
-  '@rocket.chat/stylis-logical-props-middleware':
+  '@boolfly.chat/memo': 'memo',
+  '@boolfly.chat/css-supports': 'cssSupports',
+  '@boolfly.chat/stylis-logical-props-middleware':
     'stylisLogicalPropsMiddleware',
 };
 

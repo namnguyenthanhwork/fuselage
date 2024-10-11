@@ -1,4 +1,4 @@
-import { BackgroundLayer } from '@rocket.chat/layout';
+import { BackgroundLayer } from '@boolfly.chat/layout';
 import type { ReactElement, ReactNode } from 'react';
 
 import type { FormPageLayoutStyleProps } from '../../Types';

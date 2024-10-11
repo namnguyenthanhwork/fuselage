@@ -5,7 +5,7 @@ import {
   FieldError,
   FieldLabel,
   FieldRow,
-} from '@rocket.chat/fuselage';
+} from '@boolfly.chat/fuselage';
 import { Controller } from 'react-hook-form';
 import { Trans, useTranslation } from 'react-i18next';
 

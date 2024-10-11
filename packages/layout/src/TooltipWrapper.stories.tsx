@@ -1,4 +1,4 @@
-import { Box } from '@rocket.chat/fuselage';
+import { Box } from '@boolfly.chat/fuselage';
 import type { Meta, StoryFn } from '@storybook/react';
 
 import TooltipWrapper from './TooltipWrapper';

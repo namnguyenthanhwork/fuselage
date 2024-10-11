@@ -1,5 +1,5 @@
-import { Box, Margins, ProgressBar } from '@rocket.chat/fuselage';
-import { BackgroundLayer, LayoutLogo } from '@rocket.chat/layout';
+import { Box, Margins, ProgressBar } from '@boolfly.chat/fuselage';
+import { BackgroundLayer, LayoutLogo } from '@boolfly.chat/layout';
 import type { ReactElement } from 'react';
 import { useEffect, useState } from 'react';
 

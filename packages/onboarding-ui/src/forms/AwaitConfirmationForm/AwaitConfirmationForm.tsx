@@ -1,5 +1,5 @@
-import { Box, Label } from '@rocket.chat/fuselage';
-import { Form } from '@rocket.chat/layout';
+import { Box, Label } from '@boolfly.chat/fuselage';
+import { Form } from '@boolfly.chat/layout';
 import type { ReactElement } from 'react';
 import { Trans, useTranslation } from 'react-i18next';
 

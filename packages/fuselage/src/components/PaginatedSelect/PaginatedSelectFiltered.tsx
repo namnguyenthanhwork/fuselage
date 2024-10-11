@@ -1,4 +1,4 @@
-import { useEffectEvent } from '@rocket.chat/fuselage-hooks';
+import { useEffectEvent } from '@boolfly.chat/fuselage-hooks';
 import type { FormEvent, Ref } from 'react';
 import { useMemo, forwardRef } from 'react';
 

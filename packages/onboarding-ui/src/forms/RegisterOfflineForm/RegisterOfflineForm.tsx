@@ -1,4 +1,4 @@
-import { Form } from '@rocket.chat/layout';
+import { Form } from '@boolfly.chat/layout';
 import { useState, type ReactElement } from 'react';
 import type { SubmitHandler } from 'react-hook-form';
 import { useForm, FormProvider } from 'react-hook-form';

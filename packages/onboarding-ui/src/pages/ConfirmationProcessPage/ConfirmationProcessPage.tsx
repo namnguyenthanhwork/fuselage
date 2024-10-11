@@ -1,5 +1,5 @@
-import { Throbber } from '@rocket.chat/fuselage';
-import { HeroLayout, HeroLayoutTitle } from '@rocket.chat/layout';
+import { Throbber } from '@boolfly.chat/fuselage';
+import { HeroLayout, HeroLayoutTitle } from '@boolfly.chat/layout';
 import type { ReactElement } from 'react';
 import { useTranslation } from 'react-i18next';
 

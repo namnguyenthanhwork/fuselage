@@ -1,4 +1,4 @@
-import { useToggle, useUniqueId } from '@rocket.chat/fuselage-hooks';
+import { useToggle, useUniqueId } from '@boolfly.chat/fuselage-hooks';
 import type { KeyboardEventHandler, MouseEvent } from 'react';
 
 export const useCollapse = ({

@@ -1,5 +1,5 @@
-import breakpointTokens from '@rocket.chat/fuselage-tokens/breakpoints.json';
-import surface from '@rocket.chat/fuselage-tokens/dist/surface.json';
+import breakpointTokens from '@boolfly.chat/fuselage-tokens/breakpoints.json';
+import surface from '@boolfly.chat/fuselage-tokens/dist/surface.json';
 import type { Preview } from '@storybook/react';
 import { themes } from '@storybook/theming';
 import { useDarkMode } from 'storybook-dark-mode';
@@ -10,8 +10,8 @@ import DocsContainer from './DocsContainer';
 import logo from './logo.svg';
 
 import 'normalize.css/normalize.css';
-import '@rocket.chat/icons/dist/rocketchat.css';
-import '@rocket.chat/fuselage-polyfills';
+import '@boolfly.chat/icons/dist/boolflychat.css';
+import '@boolfly.chat/fuselage-polyfills';
 
 export default {
   parameters: {

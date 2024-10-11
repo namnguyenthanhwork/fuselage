@@ -1,22 +1,22 @@
 {
-  "name": "@rocket.chat/onboarding-ui",
+  "name": "@boolfly.chat/onboarding-ui",
   "version": "0.34.0",
-  "description": "Set of components and functions for the onboarding experience on Rocket.Chat",
+  "description": "Set of components and functions for the onboarding experience on Boolfly.Chat",
   "keywords": [
-    "rocketchat"
+    "boolflychat"
   ],
   "author": {
-    "name": "Rocket.Chat",
-    "url": "https://rocket.chat/"
+    "name": "Boolfly.Chat",
+    "url": "https://subscription.boolfly.com/"
   },
-  "homepage": "https://github.com/RocketChat/fuselage#readme",
+  "homepage": "https://github.com/boolfly/fuselage#readme",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RocketChat/fuselage.git",
+    "url": "git+https://github.com/boolfly/fuselage.git",
     "directory": "packages/onboarding-ui"
   },
   "main": "dist/cjs/index.js",
@@ -39,18 +39,19 @@
     "bump-next": "bump-next"
   },
   "bugs": {
-    "url": "https://github.com/RocketChat/fuselage/issues"
+    "url": "https://github.com/boolfly/fuselage/issues"
   },
   "devDependencies": {
-    "@rocket.chat/eslint-config-alt": "workspace:~",
-    "@rocket.chat/fuselage": "workspace:~",
-    "@rocket.chat/fuselage-hooks": "workspace:~",
-    "@rocket.chat/fuselage-polyfills": "workspace:~",
-    "@rocket.chat/fuselage-tokens": "workspace:~",
-    "@rocket.chat/icons": "workspace:~",
-    "@rocket.chat/layout": "workspace:~",
-    "@rocket.chat/prettier-config": "workspace:~",
-    "@rocket.chat/styled": "workspace:~",
+    "@boolfly.chat/eslint-config-alt": "workspace:~",
+    "@boolfly.chat/fuselage": "workspace:~",
+    "@boolfly.chat/fuselage-hooks": "workspace:~",
+    "@boolfly.chat/fuselage-polyfills": "workspace:~",
+    "@boolfly.chat/fuselage-tokens": "workspace:~",
+    "@boolfly.chat/icons": "workspace:~",
+    "@boolfly.chat/layout": "workspace:~",
+    "@boolfly.chat/logo": "workspace:~",
+    "@boolfly.chat/prettier-config": "workspace:~",
+    "@boolfly.chat/styled": "workspace:~",
     "@storybook/addon-a11y": "~8.2.7",
     "@storybook/addon-essentials": "~8.2.7",
     "@storybook/addon-webpack5-compiler-swc": "~1.0.5",
@@ -60,7 +61,6 @@
     "@types/jest": "~29.5.12",
     "@types/react": "~17.0.80",
     "@types/react-dom": "~17.0.25",
-    "@yuu16/logo": "workspace:~",
     "bump": "workspace:~",
     "countries-list": "^2.6.1",
     "eslint": "~8.38.0",
@@ -83,13 +83,13 @@
     "react-hook-form": "~7.27.1"
   },
   "peerDependencies": {
-    "@rocket.chat/fuselage": "*",
-    "@rocket.chat/fuselage-hooks": "*",
-    "@rocket.chat/fuselage-polyfills": "*",
-    "@rocket.chat/icons": "*",
-    "@rocket.chat/layout": "*",
-    "@rocket.chat/styled": "*",
-    "@yuu16/logo": "*",
+    "@boolfly.chat/fuselage": "*",
+    "@boolfly.chat/fuselage-hooks": "*",
+    "@boolfly.chat/fuselage-polyfills": "*",
+    "@boolfly.chat/icons": "*",
+    "@boolfly.chat/layout": "*",
+    "@boolfly.chat/logo": "*",
+    "@boolfly.chat/styled": "*",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-i18next": "~11.15.4"

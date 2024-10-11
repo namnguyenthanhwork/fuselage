@@ -1,4 +1,4 @@
-import { FormPageLayout } from '@rocket.chat/layout';
+import { FormPageLayout } from '@boolfly.chat/layout';
 import type { ReactElement } from 'react';
 import { Trans } from 'react-i18next';
 

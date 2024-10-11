@@ -1,4 +1,4 @@
-import { memoize } from '@rocket.chat/memo';
+import { memoize } from '@boolfly.chat/memo';
 
 import { createAnimationName, escapeName } from './names';
 

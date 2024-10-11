@@ -1,18 +1,18 @@
 {
-  "name": "@rocket.chat/fuselage-polyfills",
+  "name": "@boolfly.chat/fuselage-polyfills",
   "version": "0.31.25",
   "description": "A bundle of useful poly/ponyfills used by fuselage",
   "author": {
-    "name": "Rocket.Chat",
-    "url": "https://rocket.chat/"
+    "name": "Boolfly.Chat",
+    "url": "https://subscription.boolfly.com/"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RocketChat/fuselage.git"
+    "url": "git+https://github.com/boolfly/fuselage.git"
   },
   "bugs": {
-    "url": "https://github.com/RocketChat/fuselage/issues"
+    "url": "https://github.com/boolfly/fuselage/issues"
   },
   "main": "index.js",
   "types": "index.d.ts",
@@ -33,8 +33,8 @@
     "new-event-polyfill": "^1.0.1"
   },
   "devDependencies": {
-    "@rocket.chat/eslint-config-alt": "workspace:~",
-    "@rocket.chat/prettier-config": "workspace:~",
+    "@boolfly.chat/eslint-config-alt": "workspace:~",
+    "@boolfly.chat/prettier-config": "workspace:~",
     "bump": "workspace:~",
     "eslint": "~8.38.0",
     "lint-all": "workspace:~",

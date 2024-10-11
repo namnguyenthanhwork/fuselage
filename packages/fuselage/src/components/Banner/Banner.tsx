@@ -1,4 +1,4 @@
-import { useBorderBoxSize } from '@rocket.chat/fuselage-hooks';
+import { useBorderBoxSize } from '@boolfly.chat/fuselage-hooks';
 import type {
   ReactNode,
   AllHTMLAttributes,

@@ -1,4 +1,4 @@
-import styled from '@rocket.chat/styled';
+import styled from '@boolfly.chat/styled';
 import type { CSSProperties } from 'react';
 
 type ListComponentProps = {

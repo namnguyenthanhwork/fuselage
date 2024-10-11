@@ -6,7 +6,7 @@ import {
   FieldLabel,
   FieldRow,
   InputBox,
-} from '@rocket.chat/fuselage';
+} from '@boolfly.chat/fuselage';
 import type { Meta, StoryFn } from '@storybook/react';
 
 import Form from '../FormPageLayout';

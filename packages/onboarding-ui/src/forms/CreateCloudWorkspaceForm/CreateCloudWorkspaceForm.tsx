@@ -1,4 +1,4 @@
-import type { SelectOption } from '@rocket.chat/fuselage';
+import type { SelectOption } from '@boolfly.chat/fuselage';
 import {
   FieldLabel,
   FieldRow,
@@ -14,8 +14,8 @@ import {
   Select,
   CheckBox,
   Grid,
-} from '@rocket.chat/fuselage';
-import { Form } from '@rocket.chat/layout';
+} from '@boolfly.chat/fuselage';
+import { Form } from '@boolfly.chat/layout';
 import type { ReactElement, FocusEvent } from 'react';
 import type { SubmitHandler, Validate } from 'react-hook-form';
 import { useForm, Controller } from 'react-hook-form';

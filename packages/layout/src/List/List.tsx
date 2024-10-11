@@ -1,6 +1,6 @@
-import type { Box } from '@rocket.chat/fuselage';
-import { Margins } from '@rocket.chat/fuselage';
-import colors from '@rocket.chat/fuselage-tokens/colors.json';
+import type { Box } from '@boolfly.chat/fuselage';
+import { Margins } from '@boolfly.chat/fuselage';
+import colors from '@boolfly.chat/fuselage-tokens/colors.json';
 import type {
   ReactElement,
   ReactNode,

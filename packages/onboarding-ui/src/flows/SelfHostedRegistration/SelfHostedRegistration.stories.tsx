@@ -1,4 +1,4 @@
-import { Box, Callout } from '@rocket.chat/fuselage';
+import { Box, Callout } from '@boolfly.chat/fuselage';
 import type { Meta, StoryFn } from '@storybook/react';
 import { useState } from 'react';
 

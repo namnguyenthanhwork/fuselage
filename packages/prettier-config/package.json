@@ -1,20 +1,20 @@
 {
-  "name": "@rocket.chat/prettier-config",
-  "description": "Prettier configuration for Rocket.Chat repositories",
+  "name": "@boolfly.chat/prettier-config",
+  "description": "Prettier configuration for Boolfly.Chat repositories",
   "version": "0.31.25",
   "author": {
-    "name": "Rocket.Chat",
-    "url": "https://rocket.chat/"
+    "name": "Boolfly.Chat",
+    "url": "https://subscription.boolfly.com/"
   },
   "license": "MIT",
-  "homepage": "https://github.com/RocketChat/fuselage#readme",
+  "homepage": "https://github.com/boolfly/fuselage#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RocketChat/fuselage.git",
+    "url": "git+https://github.com/boolfly/fuselage.git",
     "directory": "packages/prettier-config"
   },
   "bugs": {
-    "url": "https://github.com/RocketChat/fuselage/issues"
+    "url": "https://github.com/boolfly/fuselage/issues"
   },
   "main": "default/index.js",
   "files": [
@@ -25,7 +25,7 @@
     "access": "public"
   },
   "eslintConfig": {
-    "extends": "@rocket.chat/eslint-config-alt/minimal"
+    "extends": "@boolfly.chat/eslint-config-alt/minimal"
   },
   "prettier": "./fuselage",
   "scripts": {

@@ -1,4 +1,4 @@
-import styled from '@rocket.chat/styled';
+import styled from '@boolfly.chat/styled';
 import type { ReactNode, ReactElement } from 'react';
 
 import type { ToastBarPayload } from './ToastBarContext';

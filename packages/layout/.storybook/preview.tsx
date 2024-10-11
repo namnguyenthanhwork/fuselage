@@ -1,4 +1,4 @@
-import surface from '@rocket.chat/fuselage-tokens/dist/surface.json';
+import surface from '@boolfly.chat/fuselage-tokens/dist/surface.json';
 import type { Preview } from '@storybook/react';
 import { themes } from '@storybook/theming';
 import { Suspense } from 'react';
@@ -9,9 +9,9 @@ import DarkModeProvider from '../src/DarkModeProvider';
 import DocsContainer from './DocsContainer';
 import logo from './logo.svg';
 
-import '@rocket.chat/fuselage/dist/fuselage.css';
-import '@rocket.chat/icons/dist/rocketchat.css';
-import '@rocket.chat/fuselage-polyfills';
+import '@boolfly.chat/fuselage/dist/fuselage.css';
+import '@boolfly.chat/icons/dist/boolflychat.css';
+import '@boolfly.chat/fuselage-polyfills';
 
 export default {
   parameters: {

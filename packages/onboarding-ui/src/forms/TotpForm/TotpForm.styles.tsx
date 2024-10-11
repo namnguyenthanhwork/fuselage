@@ -1,4 +1,4 @@
-import styled from '@rocket.chat/styled';
+import styled from '@boolfly.chat/styled';
 
 export const TotpActionsWrapper = styled('div')`
   width: 100%;

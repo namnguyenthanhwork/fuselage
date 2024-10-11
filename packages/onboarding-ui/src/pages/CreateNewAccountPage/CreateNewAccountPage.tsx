@@ -4,7 +4,7 @@ import {
   VerticalWizardLayoutFooter,
   VerticalWizardLayoutForm,
   VerticalWizardLayoutTitle,
-} from '@rocket.chat/layout';
+} from '@boolfly.chat/layout';
 import type { ReactElement } from 'react';
 import type { SubmitHandler, Validate } from 'react-hook-form';
 import { Trans, useTranslation } from 'react-i18next';

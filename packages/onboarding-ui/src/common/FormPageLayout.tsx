@@ -5,7 +5,7 @@ import {
   HorizontalWizardLayoutSubtitle,
   HorizontalWizardLayoutDescription,
   HorizontalWizardLayoutContent,
-} from '@rocket.chat/layout';
+} from '@boolfly.chat/layout';
 import type { ReactElement, ReactNode } from 'react';
 import { useTranslation } from 'react-i18next';
 

@@ -1,4 +1,7 @@
-import { useEffectEvent, useDebouncedState } from '@rocket.chat/fuselage-hooks';
+import {
+  useEffectEvent,
+  useDebouncedState,
+} from '@boolfly.chat/fuselage-hooks';
 
 import AnimatedVisibility from '../AnimatedVisibility';
 

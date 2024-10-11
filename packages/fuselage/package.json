@@ -1,20 +1,20 @@
 {
-  "name": "@rocket.chat/fuselage",
+  "name": "@boolfly.chat/fuselage",
   "version": "0.59.1",
-  "description": "Rocket.Chat's React Components Library",
+  "description": "Boolfly.Chat's React Components Library",
   "author": {
-    "name": "Rocket.Chat",
-    "url": "https://rocket.chat/"
+    "name": "Boolfly.Chat",
+    "url": "https://subscription.boolfly.com/"
   },
   "license": "MIT",
-  "homepage": "https://github.com/RocketChat/fuselage#readme",
+  "homepage": "https://github.com/boolfly/fuselage#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RocketChat/fuselage.git",
+    "url": "git+https://github.com/boolfly/fuselage.git",
     "directory": "packages/fuselage"
   },
   "bugs": {
-    "url": "https://github.com/RocketChat/fuselage/issues"
+    "url": "https://github.com/boolfly/fuselage/issues"
   },
   "main": "index.js",
   "types": "dist/index.d.ts",
@@ -45,19 +45,19 @@
     "bump-next": "bump-next"
   },
   "peerDependencies": {
-    "@rocket.chat/fuselage-hooks": "*",
-    "@rocket.chat/fuselage-polyfills": "*",
-    "@rocket.chat/icons": "*",
+    "@boolfly.chat/fuselage-hooks": "*",
+    "@boolfly.chat/fuselage-polyfills": "*",
+    "@boolfly.chat/icons": "*",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-virtuoso": "1.2.4"
   },
   "dependencies": {
-    "@rocket.chat/css-in-js": "workspace:~",
-    "@rocket.chat/css-supports": "workspace:~",
-    "@rocket.chat/fuselage-tokens": "workspace:~",
-    "@rocket.chat/memo": "workspace:~",
-    "@rocket.chat/styled": "workspace:~",
+    "@boolfly.chat/css-in-js": "workspace:~",
+    "@boolfly.chat/css-supports": "workspace:~",
+    "@boolfly.chat/fuselage-tokens": "workspace:~",
+    "@boolfly.chat/memo": "workspace:~",
+    "@boolfly.chat/styled": "workspace:~",
     "invariant": "^2.2.4",
     "react-aria": "~3.23.1",
     "react-keyed-flatten-children": "^1.3.0",
@@ -69,11 +69,11 @@
     "@babel/plugin-transform-runtime": "~7.21.4",
     "@babel/preset-env": "~7.21.4",
     "@babel/preset-react": "~7.18.6",
-    "@rocket.chat/eslint-config-alt": "workspace:~",
-    "@rocket.chat/fuselage-hooks": "workspace:~",
-    "@rocket.chat/fuselage-polyfills": "workspace:~",
-    "@rocket.chat/icons": "workspace:~",
-    "@rocket.chat/prettier-config": "workspace:~",
+    "@boolfly.chat/eslint-config-alt": "workspace:~",
+    "@boolfly.chat/fuselage-hooks": "workspace:~",
+    "@boolfly.chat/fuselage-polyfills": "workspace:~",
+    "@boolfly.chat/icons": "workspace:~",
+    "@boolfly.chat/prettier-config": "workspace:~",
     "@storybook/addon-a11y": "~8.2.7",
     "@storybook/addon-essentials": "~8.2.7",
     "@storybook/addon-interactions": "~8.2.7",

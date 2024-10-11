@@ -1900,6 +1900,643 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@boolfly.chat/css-in-js@workspace:packages/css-in-js, @boolfly.chat/css-in-js@workspace:~":
+  version: 0.0.0-use.local
+  resolution: "@boolfly.chat/css-in-js@workspace:packages/css-in-js"
+  dependencies:
+    "@boolfly.chat/css-supports": "workspace:~"
+    "@boolfly.chat/eslint-config-alt": "workspace:~"
+    "@boolfly.chat/memo": "workspace:~"
+    "@boolfly.chat/prettier-config": "workspace:~"
+    "@boolfly.chat/stylis-logical-props-middleware": "workspace:~"
+    "@emotion/hash": "npm:^0.9.0"
+    "@rollup/plugin-commonjs": "npm:~21.0.3"
+    "@rollup/plugin-json": "npm:~4.1.0"
+    "@rollup/plugin-node-resolve": "npm:~13.1.3"
+    "@rollup/plugin-typescript": "npm:~8.3.4"
+    "@types/jest": "npm:~29.5.12"
+    "@types/stylis": "npm:^4.0.2"
+    bump: "workspace:~"
+    eslint: "npm:~8.38.0"
+    jest: "npm:~29.7.0"
+    lint-all: "workspace:~"
+    prettier: "npm:~2.8.7"
+    rollup: "npm:~2.67.3"
+    rollup-plugin-terser: "npm:~7.0.2"
+    stylis: "npm:~4.3.2"
+    ts-jest: "npm:~29.2.4"
+    typedoc: "npm:~0.25.13"
+    typescript: "npm:~5.5.4"
+  languageName: unknown
+  linkType: soft
+
+"@boolfly.chat/css-supports@workspace:packages/css-supports, @boolfly.chat/css-supports@workspace:~":
+  version: 0.0.0-use.local
+  resolution: "@boolfly.chat/css-supports@workspace:packages/css-supports"
+  dependencies:
+    "@boolfly.chat/eslint-config-alt": "workspace:~"
+    "@boolfly.chat/memo": "workspace:~"
+    "@boolfly.chat/prettier-config": "workspace:~"
+    bump: "workspace:~"
+    eslint: "npm:~8.38.0"
+    lint-all: "workspace:~"
+    prettier: "npm:~2.8.7"
+    rimraf: "npm:~3.0.2"
+    typedoc: "npm:~0.25.13"
+    typescript: "npm:~5.5.4"
+  languageName: unknown
+  linkType: soft
+
+"@boolfly.chat/emitter@workspace:packages/emitter":
+  version: 0.0.0-use.local
+  resolution: "@boolfly.chat/emitter@workspace:packages/emitter"
+  dependencies:
+    "@boolfly.chat/eslint-config-alt": "workspace:~"
+    "@boolfly.chat/prettier-config": "workspace:~"
+    "@rollup/plugin-commonjs": "npm:~21.0.3"
+    "@rollup/plugin-json": "npm:~4.1.0"
+    "@rollup/plugin-node-resolve": "npm:~13.1.3"
+    "@rollup/plugin-typescript": "npm:~8.3.4"
+    "@types/jest": "npm:~29.5.12"
+    bump: "workspace:~"
+    eslint: "npm:~8.38.0"
+    jest: "npm:~29.7.0"
+    lint-all: "workspace:~"
+    npm-run-all: "npm:^4.1.5"
+    prettier: "npm:~2.8.7"
+    rollup: "npm:~2.67.3"
+    rollup-plugin-terser: "npm:~7.0.2"
+    ts-jest: "npm:~29.2.4"
+    typedoc: "npm:~0.25.13"
+    typescript: "npm:~5.5.4"
+  languageName: unknown
+  linkType: soft
+
+"@boolfly.chat/eslint-config-alt@workspace:packages/eslint-config-alt, @boolfly.chat/eslint-config-alt@workspace:~":
+  version: 0.0.0-use.local
+  resolution: "@boolfly.chat/eslint-config-alt@workspace:packages/eslint-config-alt"
+  dependencies:
+    "@babel/eslint-parser": "npm:~7.21.3"
+    "@typescript-eslint/eslint-plugin": "npm:~5.58.0"
+    "@typescript-eslint/parser": "npm:~5.58.0"
+    bump: "workspace:~"
+    eslint: "npm:~8.38.0"
+    eslint-config-prettier: "npm:~8.8.0"
+    eslint-import-resolver-typescript: "npm:~3.5.5"
+    eslint-plugin-import: "npm:~2.26.0"
+    eslint-plugin-prettier: "npm:~4.2.1"
+    eslint-plugin-react: "npm:~7.32.2"
+    eslint-plugin-react-hooks: "npm:~4.6.0"
+    lint-all: "workspace:~"
+    prettier: "npm:~2.8.7"
+  peerDependencies:
+    "@babel/eslint-parser": ^7.13.14
+    eslint: ~8.38.0
+    prettier: ~2.7.1
+  languageName: unknown
+  linkType: soft
+
+"@boolfly.chat/fuselage-hooks@workspace:packages/fuselage-hooks, @boolfly.chat/fuselage-hooks@workspace:~":
+  version: 0.0.0-use.local
+  resolution: "@boolfly.chat/fuselage-hooks@workspace:packages/fuselage-hooks"
+  dependencies:
+    "@boolfly.chat/eslint-config-alt": "workspace:~"
+    "@boolfly.chat/fuselage-tokens": "workspace:~"
+    "@boolfly.chat/prettier-config": "workspace:~"
+    "@rollup/plugin-commonjs": "npm:~21.0.3"
+    "@rollup/plugin-json": "npm:~4.1.0"
+    "@rollup/plugin-node-resolve": "npm:~13.1.3"
+    "@rollup/plugin-typescript": "npm:~8.3.4"
+    "@testing-library/react-hooks": "npm:~8.0.1"
+    "@testing-library/user-event": "npm:~14.5.2"
+    "@types/jest": "npm:~29.5.12"
+    "@types/react": "npm:~17.0.80"
+    "@types/react-dom": "npm:~17.0.25"
+    "@types/resize-observer-browser": "npm:~0.1.7"
+    "@types/use-sync-external-store": "npm:~0.0.3"
+    bump: "workspace:~"
+    eslint: "npm:~8.38.0"
+    jest: "npm:~29.7.0"
+    lint-all: "workspace:~"
+    npm-run-all: "npm:^4.1.5"
+    prettier: "npm:~2.8.7"
+    react: "npm:^17.0.2"
+    rimraf: "npm:~5.0.0"
+    rollup: "npm:~2.67.3"
+    rollup-plugin-terser: "npm:~7.0.2"
+    testing-utils: "workspace:~"
+    ts-jest: "npm:~29.2.4"
+    typedoc: "npm:~0.25.13"
+    typescript: "npm:~5.5.4"
+    use-sync-external-store: "npm:~1.2.0"
+  peerDependencies:
+    "@boolfly.chat/fuselage-tokens": "*"
+    react: ^17.0.2
+  languageName: unknown
+  linkType: soft
+
+"@boolfly.chat/fuselage-monorepo@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@boolfly.chat/fuselage-monorepo@workspace:."
+  dependencies:
+    "@changesets/changelog-github": "npm:~0.4.8"
+    "@changesets/cli": "npm:~2.26.2"
+    bump: "workspace:~"
+    husky: "npm:~9.0.11"
+    hygen: "npm:~6.1.5"
+    pinst: "npm:~3.0.0"
+    turbo: "npm:~2.0.11"
+    update-readme: "workspace:~"
+    webpack: "npm:~5.78.0"
+  languageName: unknown
+  linkType: soft
+
+"@boolfly.chat/fuselage-polyfills@workspace:packages/fuselage-polyfills, @boolfly.chat/fuselage-polyfills@workspace:~":
+  version: 0.0.0-use.local
+  resolution: "@boolfly.chat/fuselage-polyfills@workspace:packages/fuselage-polyfills"
+  dependencies:
+    "@boolfly.chat/eslint-config-alt": "workspace:~"
+    "@boolfly.chat/prettier-config": "workspace:~"
+    "@juggle/resize-observer": "npm:^3.4.0"
+    bump: "workspace:~"
+    clipboard-polyfill: "npm:^3.0.3"
+    element-closest-polyfill: "npm:^1.0.6"
+    eslint: "npm:~8.38.0"
+    focus-visible: "npm:^5.2.0"
+    focus-within-polyfill: "npm:^5.2.1"
+    lint-all: "workspace:~"
+    new-event-polyfill: "npm:^1.0.1"
+    prettier: "npm:~2.8.7"
+  languageName: unknown
+  linkType: soft
+
+"@boolfly.chat/fuselage-toastbar@workspace:packages/fuselage-toastbar":
+  version: 0.0.0-use.local
+  resolution: "@boolfly.chat/fuselage-toastbar@workspace:packages/fuselage-toastbar"
+  dependencies:
+    "@boolfly.chat/eslint-config-alt": "workspace:~"
+    "@boolfly.chat/fuselage": "workspace:~"
+    "@boolfly.chat/fuselage-hooks": "workspace:~"
+    "@boolfly.chat/fuselage-tokens": "workspace:~"
+    "@boolfly.chat/layout": "workspace:~"
+    "@boolfly.chat/prettier-config": "workspace:~"
+    "@boolfly.chat/styled": "workspace:~"
+    "@storybook/addon-essentials": "npm:~8.2.7"
+    "@storybook/addon-webpack5-compiler-swc": "npm:~1.0.5"
+    "@storybook/react": "npm:~8.2.7"
+    "@storybook/react-webpack5": "npm:~8.2.7"
+    "@storybook/theming": "npm:~8.2.7"
+    "@testing-library/jest-dom": "npm:~6.4.8"
+    "@testing-library/react": "npm:~16.0.0"
+    "@testing-library/user-event": "npm:~14.5.2"
+    "@types/jest": "npm:~29.5.12"
+    "@types/react": "npm:~17.0.80"
+    "@types/react-dom": "npm:~17.0.25"
+    bump: "workspace:~"
+    eslint: "npm:~8.38.0"
+    jest: "npm:~29.7.0"
+    jest-environment-jsdom: "npm:~29.7.0"
+    lint-all: "workspace:~"
+    npm-run-all: "npm:^4.1.5"
+    prettier: "npm:~2.8.7"
+    react-dom: "npm:~17.0.2"
+    react-timing-hooks: "npm:~4.0.2"
+    rimraf: "npm:~3.0.2"
+    storybook: "npm:~8.2.7"
+    storybook-dark-mode: "npm:~4.0.2"
+    ts-jest: "npm:~29.2.4"
+    typedoc: "npm:~0.25.13"
+    typescript: "npm:~5.5.4"
+  peerDependencies:
+    "@boolfly.chat/fuselage": "*"
+    "@boolfly.chat/fuselage-hooks": "*"
+    "@boolfly.chat/fuselage-polyfills": "*"
+    "@boolfly.chat/styled": "*"
+    react: ^17.0.2
+    react-dom: ^17.0.2
+  languageName: unknown
+  linkType: soft
+
+"@boolfly.chat/fuselage-tokens@workspace:packages/fuselage-tokens, @boolfly.chat/fuselage-tokens@workspace:~":
+  version: 0.0.0-use.local
+  resolution: "@boolfly.chat/fuselage-tokens@workspace:packages/fuselage-tokens"
+  dependencies:
+    "@boolfly.chat/eslint-config-alt": "workspace:~"
+    "@boolfly.chat/prettier-config": "workspace:~"
+    build-design-tokens: "workspace:~"
+    bump: "workspace:~"
+    eslint: "npm:~8.38.0"
+    eslint-config-prettier: "npm:~8.8.0"
+    eslint-plugin-import: "npm:~2.26.0"
+    eslint-plugin-prettier: "npm:~4.2.1"
+    lint-all: "workspace:~"
+    npm-run-all: "npm:^4.1.5"
+    postcss-scss: "npm:~4.0.6"
+    prettier: "npm:~2.8.7"
+    rimraf: "npm:^3.0.2"
+    style-dictionary: "npm:~3.7.2"
+    stylelint: "npm:~15.4.0"
+    stylelint-order: "npm:~6.0.3"
+    stylelint-prettier: "npm:~3.0.0"
+    stylelint-scss: "npm:~4.6.0"
+  languageName: unknown
+  linkType: soft
+
+"@boolfly.chat/fuselage@workspace:packages/fuselage, @boolfly.chat/fuselage@workspace:~":
+  version: 0.0.0-use.local
+  resolution: "@boolfly.chat/fuselage@workspace:packages/fuselage"
+  dependencies:
+    "@babel/core": "npm:~7.21.4"
+    "@babel/eslint-parser": "npm:~7.21.3"
+    "@babel/plugin-transform-runtime": "npm:~7.21.4"
+    "@babel/preset-env": "npm:~7.21.4"
+    "@babel/preset-react": "npm:~7.18.6"
+    "@boolfly.chat/css-in-js": "workspace:~"
+    "@boolfly.chat/css-supports": "workspace:~"
+    "@boolfly.chat/eslint-config-alt": "workspace:~"
+    "@boolfly.chat/fuselage-hooks": "workspace:~"
+    "@boolfly.chat/fuselage-polyfills": "workspace:~"
+    "@boolfly.chat/fuselage-tokens": "workspace:~"
+    "@boolfly.chat/icons": "workspace:~"
+    "@boolfly.chat/memo": "workspace:~"
+    "@boolfly.chat/prettier-config": "workspace:~"
+    "@boolfly.chat/styled": "workspace:~"
+    "@storybook/addon-a11y": "npm:~8.2.7"
+    "@storybook/addon-essentials": "npm:~8.2.7"
+    "@storybook/addon-interactions": "npm:~8.2.7"
+    "@storybook/addon-links": "npm:~8.2.7"
+    "@storybook/addon-mdx-gfm": "npm:~8.2.7"
+    "@storybook/addon-styling-webpack": "npm:~1.0.0"
+    "@storybook/addon-webpack5-compiler-swc": "npm:~1.0.5"
+    "@storybook/blocks": "npm:~8.2.7"
+    "@storybook/react": "npm:~8.2.7"
+    "@storybook/react-webpack5": "npm:~8.2.7"
+    "@storybook/test": "npm:~8.2.7"
+    "@storybook/theming": "npm:~8.2.7"
+    "@testing-library/jest-dom": "npm:~6.4.8"
+    "@testing-library/react": "npm:~16.0.0"
+    "@testing-library/user-event": "npm:~14.5.2"
+    "@types/invariant": "npm:^2.2.37"
+    "@types/jest": "npm:~29.5.12"
+    "@types/jest-axe": "npm:~3.5.9"
+    autoprefixer: "npm:~10.4.14"
+    babel-loader: "npm:~9.1.2"
+    bump: "workspace:~"
+    caniuse-lite: "npm:~1.0.30001477"
+    cross-env: "npm:^7.0.3"
+    css-loader: "npm:~6.7.3"
+    cssnano: "npm:~5.0.17"
+    es-check: "npm:~7.1.1"
+    eslint: "npm:~8.38.0"
+    eslint-mdx: "npm:~2.0.5"
+    eslint-plugin-mdx: "npm:~2.0.5"
+    invariant: "npm:^2.2.4"
+    jest: "npm:~29.7.0"
+    jest-axe: "npm:~8.0.0"
+    lint-all: "workspace:~"
+    mini-css-extract-plugin: "npm:~2.7.6"
+    normalize.css: "npm:^8.0.1"
+    npm-run-all: "npm:^4.1.5"
+    path-browserify: "npm:^1.0.1"
+    postcss: "npm:~8.4.31"
+    postcss-custom-properties: "npm:~12.1.11"
+    postcss-dir-pseudo-class: "npm:~6.0.5"
+    postcss-loader: "npm:~7.2.4"
+    postcss-logical: "npm:~5.0.4"
+    postcss-scss: "npm:~4.0.6"
+    postcss-svg: "npm:~3.0.0"
+    prettier: "npm:~2.8.7"
+    react: "npm:^17.0.2"
+    react-aria: "npm:~3.23.1"
+    react-dom: "npm:^17.0.2"
+    react-keyed-flatten-children: "npm:^1.3.0"
+    react-stately: "npm:~3.17.0"
+    react-virtuoso: "npm:~3.1.5"
+    resolve-url-loader: "npm:~5.0.0"
+    rimraf: "npm:^3.0.2"
+    sass: "npm:~1.62.0"
+    sass-loader: "npm:~13.2.2"
+    storybook: "npm:~8.2.7"
+    storybook-dark-mode: "npm:~4.0.2"
+    style-loader: "npm:~3.3.2"
+    stylelint: "npm:~15.4.0"
+    stylelint-order: "npm:~6.0.3"
+    stylelint-prettier: "npm:~3.0.0"
+    stylelint-scss: "npm:~4.6.0"
+    testing-utils: "workspace:~"
+    ts-jest: "npm:~29.2.4"
+    ts-loader: "npm:~9.4.2"
+    typescript: "npm:~5.5.4"
+    webpack: "npm:~5.78.0"
+    webpack-bundle-analyzer: "npm:~4.8.0"
+    webpack-cli: "npm:~5.0.1"
+    wrapper-webpack-plugin: "npm:~2.2.2"
+  peerDependencies:
+    "@boolfly.chat/fuselage-hooks": "*"
+    "@boolfly.chat/fuselage-polyfills": "*"
+    "@boolfly.chat/icons": "*"
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    react-virtuoso: 1.2.4
+  languageName: unknown
+  linkType: soft
+
+"@boolfly.chat/icons@workspace:packages/icons, @boolfly.chat/icons@workspace:~":
+  version: 0.0.0-use.local
+  resolution: "@boolfly.chat/icons@workspace:packages/icons"
+  dependencies:
+    "@boolfly.chat/eslint-config-alt": "workspace:~"
+    "@boolfly.chat/prettier-config": "workspace:~"
+    "@prettier/plugin-xml": "npm:~2.2.0"
+    build-icons: "workspace:~"
+    bump: "workspace:~"
+    eslint: "npm:~8.38.0"
+    lint-all: "workspace:~"
+    npm-run-all: "npm:^4.1.5"
+    prettier: "npm:~2.8.7"
+    rimraf: "npm:^3.0.2"
+    stylelint: "npm:~15.4.0"
+    stylelint-order: "npm:~6.0.3"
+    stylelint-prettier: "npm:~3.0.0"
+    stylelint-scss: "npm:~4.6.0"
+  languageName: unknown
+  linkType: soft
+
+"@boolfly.chat/layout@workspace:packages/layout, @boolfly.chat/layout@workspace:~":
+  version: 0.0.0-use.local
+  resolution: "@boolfly.chat/layout@workspace:packages/layout"
+  dependencies:
+    "@boolfly.chat/eslint-config-alt": "workspace:~"
+    "@boolfly.chat/fuselage": "workspace:~"
+    "@boolfly.chat/fuselage-tokens": "workspace:~"
+    "@boolfly.chat/prettier-config": "workspace:~"
+    "@storybook/addon-essentials": "npm:~8.2.7"
+    "@storybook/addon-webpack5-compiler-swc": "npm:~1.0.5"
+    "@storybook/react": "npm:~8.2.7"
+    "@storybook/react-webpack5": "npm:~8.2.7"
+    "@storybook/theming": "npm:~8.2.7"
+    "@types/jest": "npm:~29.5.12"
+    "@types/react": "npm:~17.0.80"
+    "@types/react-dom": "npm:~17.0.25"
+    bump: "workspace:~"
+    eslint: "npm:~8.38.0"
+    jest: "npm:~29.7.0"
+    lint-all: "workspace:~"
+    npm-run-all: "npm:^4.1.5"
+    prettier: "npm:~2.8.7"
+    react: "npm:~17.0.2"
+    react-dom: "npm:~17.0.2"
+    react-i18next: "npm:~11.15.4"
+    rimraf: "npm:~3.0.2"
+    storybook: "npm:~8.2.7"
+    storybook-dark-mode: "npm:~4.0.2"
+    ts-jest: "npm:~29.2.4"
+    typedoc: "npm:~0.25.13"
+    typescript: "npm:~5.5.4"
+  peerDependencies:
+    "@boolfly.chat/fuselage": "*"
+    react: 17.0.2
+    react-dom: 17.0.2
+    react-i18next: ~11.15.4
+  languageName: unknown
+  linkType: soft
+
+"@boolfly.chat/logo@workspace:packages/logo, @boolfly.chat/logo@workspace:~":
+  version: 0.0.0-use.local
+  resolution: "@boolfly.chat/logo@workspace:packages/logo"
+  dependencies:
+    "@boolfly.chat/eslint-config-alt": "workspace:~"
+    "@boolfly.chat/fuselage-hooks": "workspace:~"
+    "@boolfly.chat/fuselage-tokens": "workspace:~"
+    "@boolfly.chat/prettier-config": "workspace:~"
+    "@boolfly.chat/styled": "workspace:~"
+    "@types/jest": "npm:~29.5.12"
+    "@types/react": "npm:~17.0.80"
+    "@types/react-dom": "npm:~17.0.25"
+    build-logo: "workspace:~"
+    bump: "workspace:~"
+    eslint: "npm:~8.38.0"
+    jest: "npm:~29.7.0"
+    lint-all: "workspace:~"
+    npm-run-all: "npm:^4.1.5"
+    prettier: "npm:~2.8.7"
+    react: "npm:^17.0.2"
+    react-dom: "npm:^17.0.2"
+    rimraf: "npm:^3.0.2"
+    ts-jest: "npm:~29.2.4"
+    typedoc: "npm:~0.25.13"
+    typescript: "npm:~5.5.4"
+  peerDependencies:
+    react: 17.0.2
+    react-dom: 17.0.2
+  languageName: unknown
+  linkType: soft
+
+"@boolfly.chat/memo@workspace:packages/memo, @boolfly.chat/memo@workspace:~":
+  version: 0.0.0-use.local
+  resolution: "@boolfly.chat/memo@workspace:packages/memo"
+  dependencies:
+    "@boolfly.chat/eslint-config-alt": "workspace:~"
+    "@boolfly.chat/prettier-config": "workspace:~"
+    "@types/jest": "npm:~29.5.12"
+    bump: "workspace:~"
+    eslint: "npm:~8.38.0"
+    jest: "npm:~29.7.0"
+    lint-all: "workspace:~"
+    prettier: "npm:~2.8.7"
+    rimraf: "npm:~3.0.2"
+    ts-jest: "npm:~29.2.4"
+    typedoc: "npm:~0.25.13"
+    typescript: "npm:~5.5.4"
+  languageName: unknown
+  linkType: soft
+
+"@boolfly.chat/mp3-encoder@workspace:packages/mp3-encoder":
+  version: 0.0.0-use.local
+  resolution: "@boolfly.chat/mp3-encoder@workspace:packages/mp3-encoder"
+  dependencies:
+    "@babel/core": "npm:~7.21.4"
+    "@babel/plugin-transform-runtime": "npm:~7.21.4"
+    "@babel/preset-env": "npm:~7.21.4"
+    "@babel/preset-typescript": "npm:~7.21.4"
+    "@boolfly.chat/eslint-config-alt": "workspace:~"
+    "@boolfly.chat/prettier-config": "workspace:~"
+    "@rollup/plugin-commonjs": "npm:~24.1.0"
+    "@rollup/plugin-node-resolve": "npm:~15.0.2"
+    "@rollup/plugin-typescript": "npm:~11.1.0"
+    "@types/jest": "npm:~29.5.12"
+    bump: "workspace:~"
+    eslint: "npm:~8.38.0"
+    jest: "npm:~29.7.0"
+    jest-environment-jsdom: "npm:~29.7.0"
+    lint-all: "workspace:~"
+    prettier: "npm:~2.8.7"
+    rollup: "npm:~3.20.4"
+    ts-jest: "npm:~29.2.4"
+    typedoc: "npm:~0.25.13"
+    typescript: "npm:~5.5.4"
+  languageName: unknown
+  linkType: soft
+
+"@boolfly.chat/onboarding-ui@workspace:packages/onboarding-ui":
+  version: 0.0.0-use.local
+  resolution: "@boolfly.chat/onboarding-ui@workspace:packages/onboarding-ui"
+  dependencies:
+    "@boolfly.chat/eslint-config-alt": "workspace:~"
+    "@boolfly.chat/fuselage": "workspace:~"
+    "@boolfly.chat/fuselage-hooks": "workspace:~"
+    "@boolfly.chat/fuselage-polyfills": "workspace:~"
+    "@boolfly.chat/fuselage-tokens": "workspace:~"
+    "@boolfly.chat/icons": "workspace:~"
+    "@boolfly.chat/layout": "workspace:~"
+    "@boolfly.chat/logo": "workspace:~"
+    "@boolfly.chat/prettier-config": "workspace:~"
+    "@boolfly.chat/styled": "workspace:~"
+    "@storybook/addon-a11y": "npm:~8.2.7"
+    "@storybook/addon-essentials": "npm:~8.2.7"
+    "@storybook/addon-webpack5-compiler-swc": "npm:~1.0.5"
+    "@storybook/react": "npm:~8.2.7"
+    "@storybook/react-webpack5": "npm:~8.2.7"
+    "@storybook/theming": "npm:~8.2.7"
+    "@types/jest": "npm:~29.5.12"
+    "@types/react": "npm:~17.0.80"
+    "@types/react-dom": "npm:~17.0.25"
+    bump: "workspace:~"
+    countries-list: "npm:^2.6.1"
+    eslint: "npm:~8.38.0"
+    i18next: "npm:~21.6.16"
+    jest: "npm:~29.7.0"
+    lint-all: "workspace:~"
+    npm-run-all: "npm:^4.1.5"
+    prettier: "npm:~2.8.7"
+    react: "npm:^17.0.2"
+    react-dom: "npm:^17.0.2"
+    react-hook-form: "npm:~7.27.1"
+    react-i18next: "npm:~11.15.7"
+    rimraf: "npm:^3.0.2"
+    storybook: "npm:~8.2.7"
+    storybook-dark-mode: "npm:~4.0.2"
+    ts-jest: "npm:~29.2.4"
+    typedoc: "npm:~0.25.13"
+    typescript: "npm:~5.5.4"
+  peerDependencies:
+    "@boolfly.chat/fuselage": "*"
+    "@boolfly.chat/fuselage-hooks": "*"
+    "@boolfly.chat/fuselage-polyfills": "*"
+    "@boolfly.chat/icons": "*"
+    "@boolfly.chat/layout": "*"
+    "@boolfly.chat/logo": "*"
+    "@boolfly.chat/styled": "*"
+    react: 17.0.2
+    react-dom: 17.0.2
+    react-i18next: ~11.15.4
+  languageName: unknown
+  linkType: soft
+
+"@boolfly.chat/peggy-loader@workspace:packages/peggy-loader":
+  version: 0.0.0-use.local
+  resolution: "@boolfly.chat/peggy-loader@workspace:packages/peggy-loader"
+  dependencies:
+    "@boolfly.chat/eslint-config-alt": "workspace:~"
+    "@boolfly.chat/prettier-config": "workspace:~"
+    "@types/node": "npm:~14.18.42"
+    bump: "workspace:~"
+    eslint: "npm:~8.38.0"
+    lint-all: "workspace:~"
+    npm-run-all: "npm:^4.1.5"
+    peggy: "npm:3.0.2"
+    prettier: "npm:~2.8.7"
+    rimraf: "npm:^3.0.2"
+    ts-jest: "npm:~29.2.4"
+    typescript: "npm:~5.5.4"
+    webpack: "npm:~5.78.0"
+  peerDependencies:
+    peggy: "*"
+    webpack: "*"
+  languageName: unknown
+  linkType: soft
+
+"@boolfly.chat/prettier-config@workspace:packages/prettier-config, @boolfly.chat/prettier-config@workspace:~":
+  version: 0.0.0-use.local
+  resolution: "@boolfly.chat/prettier-config@workspace:packages/prettier-config"
+  dependencies:
+    bump: "workspace:~"
+    eslint: "npm:~8.38.0"
+    eslint-config-prettier: "npm:~8.8.0"
+    eslint-plugin-import: "npm:~2.26.0"
+    eslint-plugin-prettier: "npm:~4.2.1"
+    lint-all: "workspace:~"
+    prettier: "npm:~2.8.7"
+  peerDependencies:
+    prettier: "*"
+  languageName: unknown
+  linkType: soft
+
+"@boolfly.chat/string-helpers@workspace:packages/string-helpers":
+  version: 0.0.0-use.local
+  resolution: "@boolfly.chat/string-helpers@workspace:packages/string-helpers"
+  dependencies:
+    "@boolfly.chat/eslint-config-alt": "workspace:~"
+    "@boolfly.chat/prettier-config": "workspace:~"
+    "@types/jest": "npm:~29.5.12"
+    bump: "workspace:~"
+    eslint: "npm:~8.38.0"
+    jest: "npm:~29.7.0"
+    lint-all: "workspace:~"
+    npm-run-all: "npm:^4.1.5"
+    prettier: "npm:~2.8.7"
+    rimraf: "npm:^3.0.2"
+    ts-jest: "npm:~29.2.4"
+    typedoc: "npm:~0.25.13"
+    typescript: "npm:~5.5.4"
+  languageName: unknown
+  linkType: soft
+
+"@boolfly.chat/styled@workspace:packages/styled, @boolfly.chat/styled@workspace:~":
+  version: 0.0.0-use.local
+  resolution: "@boolfly.chat/styled@workspace:packages/styled"
+  dependencies:
+    "@boolfly.chat/css-in-js": "workspace:~"
+    "@boolfly.chat/eslint-config-alt": "workspace:~"
+    "@boolfly.chat/prettier-config": "workspace:~"
+    "@types/jest": "npm:~29.5.12"
+    bump: "workspace:~"
+    eslint: "npm:~8.38.0"
+    jest: "npm:~29.7.0"
+    lint-all: "workspace:~"
+    npm-run-all: "npm:^4.1.5"
+    prettier: "npm:~2.8.7"
+    rimraf: "npm:^3.0.2"
+    ts-jest: "npm:~29.2.4"
+    typedoc: "npm:~0.25.13"
+    typescript: "npm:~5.5.4"
+  languageName: unknown
+  linkType: soft
+
+"@boolfly.chat/stylis-logical-props-middleware@workspace:packages/stylis-logical-props-middleware, @boolfly.chat/stylis-logical-props-middleware@workspace:~":
+  version: 0.0.0-use.local
+  resolution: "@boolfly.chat/stylis-logical-props-middleware@workspace:packages/stylis-logical-props-middleware"
+  dependencies:
+    "@boolfly.chat/css-supports": "workspace:~"
+    "@boolfly.chat/eslint-config-alt": "workspace:~"
+    "@boolfly.chat/prettier-config": "workspace:~"
+    "@types/jest": "npm:~29.5.12"
+    bump: "workspace:~"
+    eslint: "npm:~8.38.0"
+    jest: "npm:~29.7.0"
+    lint-all: "workspace:~"
+    npm-run-all: "npm:^4.1.5"
+    prettier: "npm:~2.8.7"
+    rimraf: "npm:^3.0.2"
+    stylis: "npm:~4.3.2"
+    ts-jest: "npm:~29.2.4"
+    typedoc: "npm:~0.25.13"
+    typescript: "npm:~5.5.4"
+  peerDependencies:
+    stylis: ~4.3.2
+  languageName: unknown
+  linkType: soft
+
 "@changesets/apply-release-plan@npm:^6.1.4":
   version: 6.1.4
   resolution: "@changesets/apply-release-plan@npm:6.1.4"
@@ -4391,612 +5028,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rocket.chat/css-in-js@workspace:packages/css-in-js, @rocket.chat/css-in-js@workspace:~":
-  version: 0.0.0-use.local
-  resolution: "@rocket.chat/css-in-js@workspace:packages/css-in-js"
-  dependencies:
-    "@emotion/hash": "npm:^0.9.0"
-    "@rocket.chat/css-supports": "workspace:~"
-    "@rocket.chat/eslint-config-alt": "workspace:~"
-    "@rocket.chat/memo": "workspace:~"
-    "@rocket.chat/prettier-config": "workspace:~"
-    "@rocket.chat/stylis-logical-props-middleware": "workspace:~"
-    "@rollup/plugin-commonjs": "npm:~21.0.3"
-    "@rollup/plugin-json": "npm:~4.1.0"
-    "@rollup/plugin-node-resolve": "npm:~13.1.3"
-    "@rollup/plugin-typescript": "npm:~8.3.4"
-    "@types/jest": "npm:~29.5.12"
-    "@types/stylis": "npm:^4.0.2"
-    bump: "workspace:~"
-    eslint: "npm:~8.38.0"
-    jest: "npm:~29.7.0"
-    lint-all: "workspace:~"
-    prettier: "npm:~2.8.7"
-    rollup: "npm:~2.67.3"
-    rollup-plugin-terser: "npm:~7.0.2"
-    stylis: "npm:~4.3.2"
-    ts-jest: "npm:~29.2.4"
-    typedoc: "npm:~0.25.13"
-    typescript: "npm:~5.5.4"
-  languageName: unknown
-  linkType: soft
-
-"@rocket.chat/css-supports@workspace:packages/css-supports, @rocket.chat/css-supports@workspace:~":
-  version: 0.0.0-use.local
-  resolution: "@rocket.chat/css-supports@workspace:packages/css-supports"
-  dependencies:
-    "@rocket.chat/eslint-config-alt": "workspace:~"
-    "@rocket.chat/memo": "workspace:~"
-    "@rocket.chat/prettier-config": "workspace:~"
-    bump: "workspace:~"
-    eslint: "npm:~8.38.0"
-    lint-all: "workspace:~"
-    prettier: "npm:~2.8.7"
-    rimraf: "npm:~3.0.2"
-    typedoc: "npm:~0.25.13"
-    typescript: "npm:~5.5.4"
-  languageName: unknown
-  linkType: soft
-
-"@rocket.chat/emitter@workspace:packages/emitter":
-  version: 0.0.0-use.local
-  resolution: "@rocket.chat/emitter@workspace:packages/emitter"
-  dependencies:
-    "@rocket.chat/eslint-config-alt": "workspace:~"
-    "@rocket.chat/prettier-config": "workspace:~"
-    "@rollup/plugin-commonjs": "npm:~21.0.3"
-    "@rollup/plugin-json": "npm:~4.1.0"
-    "@rollup/plugin-node-resolve": "npm:~13.1.3"
-    "@rollup/plugin-typescript": "npm:~8.3.4"
-    "@types/jest": "npm:~29.5.12"
-    bump: "workspace:~"
-    eslint: "npm:~8.38.0"
-    jest: "npm:~29.7.0"
-    lint-all: "workspace:~"
-    npm-run-all: "npm:^4.1.5"
-    prettier: "npm:~2.8.7"
-    rollup: "npm:~2.67.3"
-    rollup-plugin-terser: "npm:~7.0.2"
-    ts-jest: "npm:~29.2.4"
-    typedoc: "npm:~0.25.13"
-    typescript: "npm:~5.5.4"
-  languageName: unknown
-  linkType: soft
-
-"@rocket.chat/eslint-config-alt@workspace:packages/eslint-config-alt, @rocket.chat/eslint-config-alt@workspace:~":
-  version: 0.0.0-use.local
-  resolution: "@rocket.chat/eslint-config-alt@workspace:packages/eslint-config-alt"
-  dependencies:
-    "@babel/eslint-parser": "npm:~7.21.3"
-    "@typescript-eslint/eslint-plugin": "npm:~5.58.0"
-    "@typescript-eslint/parser": "npm:~5.58.0"
-    bump: "workspace:~"
-    eslint: "npm:~8.38.0"
-    eslint-config-prettier: "npm:~8.8.0"
-    eslint-import-resolver-typescript: "npm:~3.5.5"
-    eslint-plugin-import: "npm:~2.26.0"
-    eslint-plugin-prettier: "npm:~4.2.1"
-    eslint-plugin-react: "npm:~7.32.2"
-    eslint-plugin-react-hooks: "npm:~4.6.0"
-    lint-all: "workspace:~"
-    prettier: "npm:~2.8.7"
-  peerDependencies:
-    "@babel/eslint-parser": ^7.13.14
-    eslint: ~8.38.0
-    prettier: ~2.7.1
-  languageName: unknown
-  linkType: soft
-
-"@rocket.chat/fuselage-hooks@workspace:packages/fuselage-hooks, @rocket.chat/fuselage-hooks@workspace:~":
-  version: 0.0.0-use.local
-  resolution: "@rocket.chat/fuselage-hooks@workspace:packages/fuselage-hooks"
-  dependencies:
-    "@rocket.chat/eslint-config-alt": "workspace:~"
-    "@rocket.chat/fuselage-tokens": "workspace:~"
-    "@rocket.chat/prettier-config": "workspace:~"
-    "@rollup/plugin-commonjs": "npm:~21.0.3"
-    "@rollup/plugin-json": "npm:~4.1.0"
-    "@rollup/plugin-node-resolve": "npm:~13.1.3"
-    "@rollup/plugin-typescript": "npm:~8.3.4"
-    "@testing-library/react-hooks": "npm:~8.0.1"
-    "@testing-library/user-event": "npm:~14.5.2"
-    "@types/jest": "npm:~29.5.12"
-    "@types/react": "npm:~17.0.80"
-    "@types/react-dom": "npm:~17.0.25"
-    "@types/resize-observer-browser": "npm:~0.1.7"
-    "@types/use-sync-external-store": "npm:~0.0.3"
-    bump: "workspace:~"
-    eslint: "npm:~8.38.0"
-    jest: "npm:~29.7.0"
-    lint-all: "workspace:~"
-    npm-run-all: "npm:^4.1.5"
-    prettier: "npm:~2.8.7"
-    react: "npm:^17.0.2"
-    rimraf: "npm:~5.0.0"
-    rollup: "npm:~2.67.3"
-    rollup-plugin-terser: "npm:~7.0.2"
-    testing-utils: "workspace:~"
-    ts-jest: "npm:~29.2.4"
-    typedoc: "npm:~0.25.13"
-    typescript: "npm:~5.5.4"
-    use-sync-external-store: "npm:~1.2.0"
-  peerDependencies:
-    "@rocket.chat/fuselage-tokens": "*"
-    react: ^17.0.2
-  languageName: unknown
-  linkType: soft
-
-"@rocket.chat/fuselage-monorepo@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@rocket.chat/fuselage-monorepo@workspace:."
-  dependencies:
-    "@changesets/changelog-github": "npm:~0.4.8"
-    "@changesets/cli": "npm:~2.26.2"
-    bump: "workspace:~"
-    husky: "npm:~9.0.11"
-    hygen: "npm:~6.1.5"
-    pinst: "npm:~3.0.0"
-    turbo: "npm:~2.0.11"
-    update-readme: "workspace:~"
-    webpack: "npm:~5.78.0"
-  languageName: unknown
-  linkType: soft
-
-"@rocket.chat/fuselage-polyfills@workspace:packages/fuselage-polyfills, @rocket.chat/fuselage-polyfills@workspace:~":
-  version: 0.0.0-use.local
-  resolution: "@rocket.chat/fuselage-polyfills@workspace:packages/fuselage-polyfills"
-  dependencies:
-    "@juggle/resize-observer": "npm:^3.4.0"
-    "@rocket.chat/eslint-config-alt": "workspace:~"
-    "@rocket.chat/prettier-config": "workspace:~"
-    bump: "workspace:~"
-    clipboard-polyfill: "npm:^3.0.3"
-    element-closest-polyfill: "npm:^1.0.6"
-    eslint: "npm:~8.38.0"
-    focus-visible: "npm:^5.2.0"
-    focus-within-polyfill: "npm:^5.2.1"
-    lint-all: "workspace:~"
-    new-event-polyfill: "npm:^1.0.1"
-    prettier: "npm:~2.8.7"
-  languageName: unknown
-  linkType: soft
-
-"@rocket.chat/fuselage-toastbar@workspace:packages/fuselage-toastbar":
-  version: 0.0.0-use.local
-  resolution: "@rocket.chat/fuselage-toastbar@workspace:packages/fuselage-toastbar"
-  dependencies:
-    "@rocket.chat/eslint-config-alt": "workspace:~"
-    "@rocket.chat/fuselage": "workspace:~"
-    "@rocket.chat/fuselage-hooks": "workspace:~"
-    "@rocket.chat/fuselage-tokens": "workspace:~"
-    "@rocket.chat/layout": "workspace:~"
-    "@rocket.chat/prettier-config": "workspace:~"
-    "@rocket.chat/styled": "workspace:~"
-    "@storybook/addon-essentials": "npm:~8.2.7"
-    "@storybook/addon-webpack5-compiler-swc": "npm:~1.0.5"
-    "@storybook/react": "npm:~8.2.7"
-    "@storybook/react-webpack5": "npm:~8.2.7"
-    "@storybook/theming": "npm:~8.2.7"
-    "@testing-library/jest-dom": "npm:~6.4.8"
-    "@testing-library/react": "npm:~16.0.0"
-    "@testing-library/user-event": "npm:~14.5.2"
-    "@types/jest": "npm:~29.5.12"
-    "@types/react": "npm:~17.0.80"
-    "@types/react-dom": "npm:~17.0.25"
-    bump: "workspace:~"
-    eslint: "npm:~8.38.0"
-    jest: "npm:~29.7.0"
-    jest-environment-jsdom: "npm:~29.7.0"
-    lint-all: "workspace:~"
-    npm-run-all: "npm:^4.1.5"
-    prettier: "npm:~2.8.7"
-    react-dom: "npm:~17.0.2"
-    react-timing-hooks: "npm:~4.0.2"
-    rimraf: "npm:~3.0.2"
-    storybook: "npm:~8.2.7"
-    storybook-dark-mode: "npm:~4.0.2"
-    ts-jest: "npm:~29.2.4"
-    typedoc: "npm:~0.25.13"
-    typescript: "npm:~5.5.4"
-  peerDependencies:
-    "@rocket.chat/fuselage": "*"
-    "@rocket.chat/fuselage-hooks": "*"
-    "@rocket.chat/fuselage-polyfills": "*"
-    "@rocket.chat/styled": "*"
-    react: ^17.0.2
-    react-dom: ^17.0.2
-  languageName: unknown
-  linkType: soft
-
-"@rocket.chat/fuselage-tokens@workspace:packages/fuselage-tokens, @rocket.chat/fuselage-tokens@workspace:~":
-  version: 0.0.0-use.local
-  resolution: "@rocket.chat/fuselage-tokens@workspace:packages/fuselage-tokens"
-  dependencies:
-    "@rocket.chat/eslint-config-alt": "workspace:~"
-    "@rocket.chat/prettier-config": "workspace:~"
-    build-design-tokens: "workspace:~"
-    bump: "workspace:~"
-    eslint: "npm:~8.38.0"
-    eslint-config-prettier: "npm:~8.8.0"
-    eslint-plugin-import: "npm:~2.26.0"
-    eslint-plugin-prettier: "npm:~4.2.1"
-    lint-all: "workspace:~"
-    npm-run-all: "npm:^4.1.5"
-    postcss-scss: "npm:~4.0.6"
-    prettier: "npm:~2.8.7"
-    rimraf: "npm:^3.0.2"
-    style-dictionary: "npm:~3.7.2"
-    stylelint: "npm:~15.4.0"
-    stylelint-order: "npm:~6.0.3"
-    stylelint-prettier: "npm:~3.0.0"
-    stylelint-scss: "npm:~4.6.0"
-  languageName: unknown
-  linkType: soft
-
-"@rocket.chat/fuselage@workspace:packages/fuselage, @rocket.chat/fuselage@workspace:~":
-  version: 0.0.0-use.local
-  resolution: "@rocket.chat/fuselage@workspace:packages/fuselage"
-  dependencies:
-    "@babel/core": "npm:~7.21.4"
-    "@babel/eslint-parser": "npm:~7.21.3"
-    "@babel/plugin-transform-runtime": "npm:~7.21.4"
-    "@babel/preset-env": "npm:~7.21.4"
-    "@babel/preset-react": "npm:~7.18.6"
-    "@rocket.chat/css-in-js": "workspace:~"
-    "@rocket.chat/css-supports": "workspace:~"
-    "@rocket.chat/eslint-config-alt": "workspace:~"
-    "@rocket.chat/fuselage-hooks": "workspace:~"
-    "@rocket.chat/fuselage-polyfills": "workspace:~"
-    "@rocket.chat/fuselage-tokens": "workspace:~"
-    "@rocket.chat/icons": "workspace:~"
-    "@rocket.chat/memo": "workspace:~"
-    "@rocket.chat/prettier-config": "workspace:~"
-    "@rocket.chat/styled": "workspace:~"
-    "@storybook/addon-a11y": "npm:~8.2.7"
-    "@storybook/addon-essentials": "npm:~8.2.7"
-    "@storybook/addon-interactions": "npm:~8.2.7"
-    "@storybook/addon-links": "npm:~8.2.7"
-    "@storybook/addon-mdx-gfm": "npm:~8.2.7"
-    "@storybook/addon-styling-webpack": "npm:~1.0.0"
-    "@storybook/addon-webpack5-compiler-swc": "npm:~1.0.5"
-    "@storybook/blocks": "npm:~8.2.7"
-    "@storybook/react": "npm:~8.2.7"
-    "@storybook/react-webpack5": "npm:~8.2.7"
-    "@storybook/test": "npm:~8.2.7"
-    "@storybook/theming": "npm:~8.2.7"
-    "@testing-library/jest-dom": "npm:~6.4.8"
-    "@testing-library/react": "npm:~16.0.0"
-    "@testing-library/user-event": "npm:~14.5.2"
-    "@types/invariant": "npm:^2.2.37"
-    "@types/jest": "npm:~29.5.12"
-    "@types/jest-axe": "npm:~3.5.9"
-    autoprefixer: "npm:~10.4.14"
-    babel-loader: "npm:~9.1.2"
-    bump: "workspace:~"
-    caniuse-lite: "npm:~1.0.30001477"
-    cross-env: "npm:^7.0.3"
-    css-loader: "npm:~6.7.3"
-    cssnano: "npm:~5.0.17"
-    es-check: "npm:~7.1.1"
-    eslint: "npm:~8.38.0"
-    eslint-mdx: "npm:~2.0.5"
-    eslint-plugin-mdx: "npm:~2.0.5"
-    invariant: "npm:^2.2.4"
-    jest: "npm:~29.7.0"
-    jest-axe: "npm:~8.0.0"
-    lint-all: "workspace:~"
-    mini-css-extract-plugin: "npm:~2.7.6"
-    normalize.css: "npm:^8.0.1"
-    npm-run-all: "npm:^4.1.5"
-    path-browserify: "npm:^1.0.1"
-    postcss: "npm:~8.4.31"
-    postcss-custom-properties: "npm:~12.1.11"
-    postcss-dir-pseudo-class: "npm:~6.0.5"
-    postcss-loader: "npm:~7.2.4"
-    postcss-logical: "npm:~5.0.4"
-    postcss-scss: "npm:~4.0.6"
-    postcss-svg: "npm:~3.0.0"
-    prettier: "npm:~2.8.7"
-    react: "npm:^17.0.2"
-    react-aria: "npm:~3.23.1"
-    react-dom: "npm:^17.0.2"
-    react-keyed-flatten-children: "npm:^1.3.0"
-    react-stately: "npm:~3.17.0"
-    react-virtuoso: "npm:~3.1.5"
-    resolve-url-loader: "npm:~5.0.0"
-    rimraf: "npm:^3.0.2"
-    sass: "npm:~1.62.0"
-    sass-loader: "npm:~13.2.2"
-    storybook: "npm:~8.2.7"
-    storybook-dark-mode: "npm:~4.0.2"
-    style-loader: "npm:~3.3.2"
-    stylelint: "npm:~15.4.0"
-    stylelint-order: "npm:~6.0.3"
-    stylelint-prettier: "npm:~3.0.0"
-    stylelint-scss: "npm:~4.6.0"
-    testing-utils: "workspace:~"
-    ts-jest: "npm:~29.2.4"
-    ts-loader: "npm:~9.4.2"
-    typescript: "npm:~5.5.4"
-    webpack: "npm:~5.78.0"
-    webpack-bundle-analyzer: "npm:~4.8.0"
-    webpack-cli: "npm:~5.0.1"
-    wrapper-webpack-plugin: "npm:~2.2.2"
-  peerDependencies:
-    "@rocket.chat/fuselage-hooks": "*"
-    "@rocket.chat/fuselage-polyfills": "*"
-    "@rocket.chat/icons": "*"
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    react-virtuoso: 1.2.4
-  languageName: unknown
-  linkType: soft
-
-"@rocket.chat/icons@workspace:packages/icons, @rocket.chat/icons@workspace:~":
-  version: 0.0.0-use.local
-  resolution: "@rocket.chat/icons@workspace:packages/icons"
-  dependencies:
-    "@prettier/plugin-xml": "npm:~2.2.0"
-    "@rocket.chat/eslint-config-alt": "workspace:~"
-    "@rocket.chat/prettier-config": "workspace:~"
-    build-icons: "workspace:~"
-    bump: "workspace:~"
-    eslint: "npm:~8.38.0"
-    lint-all: "workspace:~"
-    npm-run-all: "npm:^4.1.5"
-    prettier: "npm:~2.8.7"
-    rimraf: "npm:^3.0.2"
-    stylelint: "npm:~15.4.0"
-    stylelint-order: "npm:~6.0.3"
-    stylelint-prettier: "npm:~3.0.0"
-    stylelint-scss: "npm:~4.6.0"
-  languageName: unknown
-  linkType: soft
-
-"@rocket.chat/layout@workspace:packages/layout, @rocket.chat/layout@workspace:~":
-  version: 0.0.0-use.local
-  resolution: "@rocket.chat/layout@workspace:packages/layout"
-  dependencies:
-    "@rocket.chat/eslint-config-alt": "workspace:~"
-    "@rocket.chat/fuselage": "workspace:~"
-    "@rocket.chat/fuselage-tokens": "workspace:~"
-    "@rocket.chat/prettier-config": "workspace:~"
-    "@storybook/addon-essentials": "npm:~8.2.7"
-    "@storybook/addon-webpack5-compiler-swc": "npm:~1.0.5"
-    "@storybook/react": "npm:~8.2.7"
-    "@storybook/react-webpack5": "npm:~8.2.7"
-    "@storybook/theming": "npm:~8.2.7"
-    "@types/jest": "npm:~29.5.12"
-    "@types/react": "npm:~17.0.80"
-    "@types/react-dom": "npm:~17.0.25"
-    bump: "workspace:~"
-    eslint: "npm:~8.38.0"
-    jest: "npm:~29.7.0"
-    lint-all: "workspace:~"
-    npm-run-all: "npm:^4.1.5"
-    prettier: "npm:~2.8.7"
-    react: "npm:~17.0.2"
-    react-dom: "npm:~17.0.2"
-    react-i18next: "npm:~11.15.4"
-    rimraf: "npm:~3.0.2"
-    storybook: "npm:~8.2.7"
-    storybook-dark-mode: "npm:~4.0.2"
-    ts-jest: "npm:~29.2.4"
-    typedoc: "npm:~0.25.13"
-    typescript: "npm:~5.5.4"
-  peerDependencies:
-    "@rocket.chat/fuselage": "*"
-    react: 17.0.2
-    react-dom: 17.0.2
-    react-i18next: ~11.15.4
-  languageName: unknown
-  linkType: soft
-
-"@rocket.chat/memo@workspace:packages/memo, @rocket.chat/memo@workspace:~":
-  version: 0.0.0-use.local
-  resolution: "@rocket.chat/memo@workspace:packages/memo"
-  dependencies:
-    "@rocket.chat/eslint-config-alt": "workspace:~"
-    "@rocket.chat/prettier-config": "workspace:~"
-    "@types/jest": "npm:~29.5.12"
-    bump: "workspace:~"
-    eslint: "npm:~8.38.0"
-    jest: "npm:~29.7.0"
-    lint-all: "workspace:~"
-    prettier: "npm:~2.8.7"
-    rimraf: "npm:~3.0.2"
-    ts-jest: "npm:~29.2.4"
-    typedoc: "npm:~0.25.13"
-    typescript: "npm:~5.5.4"
-  languageName: unknown
-  linkType: soft
-
-"@rocket.chat/mp3-encoder@workspace:packages/mp3-encoder":
-  version: 0.0.0-use.local
-  resolution: "@rocket.chat/mp3-encoder@workspace:packages/mp3-encoder"
-  dependencies:
-    "@babel/core": "npm:~7.21.4"
-    "@babel/plugin-transform-runtime": "npm:~7.21.4"
-    "@babel/preset-env": "npm:~7.21.4"
-    "@babel/preset-typescript": "npm:~7.21.4"
-    "@rocket.chat/eslint-config-alt": "workspace:~"
-    "@rocket.chat/prettier-config": "workspace:~"
-    "@rollup/plugin-commonjs": "npm:~24.1.0"
-    "@rollup/plugin-node-resolve": "npm:~15.0.2"
-    "@rollup/plugin-typescript": "npm:~11.1.0"
-    "@types/jest": "npm:~29.5.12"
-    bump: "workspace:~"
-    eslint: "npm:~8.38.0"
-    jest: "npm:~29.7.0"
-    jest-environment-jsdom: "npm:~29.7.0"
-    lint-all: "workspace:~"
-    prettier: "npm:~2.8.7"
-    rollup: "npm:~3.20.4"
-    ts-jest: "npm:~29.2.4"
-    typedoc: "npm:~0.25.13"
-    typescript: "npm:~5.5.4"
-  languageName: unknown
-  linkType: soft
-
-"@rocket.chat/onboarding-ui@workspace:packages/onboarding-ui":
-  version: 0.0.0-use.local
-  resolution: "@rocket.chat/onboarding-ui@workspace:packages/onboarding-ui"
-  dependencies:
-    "@rocket.chat/eslint-config-alt": "workspace:~"
-    "@rocket.chat/fuselage": "workspace:~"
-    "@rocket.chat/fuselage-hooks": "workspace:~"
-    "@rocket.chat/fuselage-polyfills": "workspace:~"
-    "@rocket.chat/fuselage-tokens": "workspace:~"
-    "@rocket.chat/icons": "workspace:~"
-    "@rocket.chat/layout": "workspace:~"
-    "@rocket.chat/prettier-config": "workspace:~"
-    "@rocket.chat/styled": "workspace:~"
-    "@storybook/addon-a11y": "npm:~8.2.7"
-    "@storybook/addon-essentials": "npm:~8.2.7"
-    "@storybook/addon-webpack5-compiler-swc": "npm:~1.0.5"
-    "@storybook/react": "npm:~8.2.7"
-    "@storybook/react-webpack5": "npm:~8.2.7"
-    "@storybook/theming": "npm:~8.2.7"
-    "@types/jest": "npm:~29.5.12"
-    "@types/react": "npm:~17.0.80"
-    "@types/react-dom": "npm:~17.0.25"
-    "@yuu16/logo": "workspace:~"
-    bump: "workspace:~"
-    countries-list: "npm:^2.6.1"
-    eslint: "npm:~8.38.0"
-    i18next: "npm:~21.6.16"
-    jest: "npm:~29.7.0"
-    lint-all: "workspace:~"
-    npm-run-all: "npm:^4.1.5"
-    prettier: "npm:~2.8.7"
-    react: "npm:^17.0.2"
-    react-dom: "npm:^17.0.2"
-    react-hook-form: "npm:~7.27.1"
-    react-i18next: "npm:~11.15.7"
-    rimraf: "npm:^3.0.2"
-    storybook: "npm:~8.2.7"
-    storybook-dark-mode: "npm:~4.0.2"
-    ts-jest: "npm:~29.2.4"
-    typedoc: "npm:~0.25.13"
-    typescript: "npm:~5.5.4"
-  peerDependencies:
-    "@rocket.chat/fuselage": "*"
-    "@rocket.chat/fuselage-hooks": "*"
-    "@rocket.chat/fuselage-polyfills": "*"
-    "@rocket.chat/icons": "*"
-    "@rocket.chat/layout": "*"
-    "@rocket.chat/styled": "*"
-    "@yuu16/logo": "*"
-    react: 17.0.2
-    react-dom: 17.0.2
-    react-i18next: ~11.15.4
-  languageName: unknown
-  linkType: soft
-
-"@rocket.chat/peggy-loader@workspace:packages/peggy-loader":
-  version: 0.0.0-use.local
-  resolution: "@rocket.chat/peggy-loader@workspace:packages/peggy-loader"
-  dependencies:
-    "@rocket.chat/eslint-config-alt": "workspace:~"
-    "@rocket.chat/prettier-config": "workspace:~"
-    "@types/node": "npm:~14.18.42"
-    bump: "workspace:~"
-    eslint: "npm:~8.38.0"
-    lint-all: "workspace:~"
-    npm-run-all: "npm:^4.1.5"
-    peggy: "npm:3.0.2"
-    prettier: "npm:~2.8.7"
-    rimraf: "npm:^3.0.2"
-    ts-jest: "npm:~29.2.4"
-    typescript: "npm:~5.5.4"
-    webpack: "npm:~5.78.0"
-  peerDependencies:
-    peggy: "*"
-    webpack: "*"
-  languageName: unknown
-  linkType: soft
-
-"@rocket.chat/prettier-config@workspace:packages/prettier-config, @rocket.chat/prettier-config@workspace:~":
-  version: 0.0.0-use.local
-  resolution: "@rocket.chat/prettier-config@workspace:packages/prettier-config"
-  dependencies:
-    bump: "workspace:~"
-    eslint: "npm:~8.38.0"
-    eslint-config-prettier: "npm:~8.8.0"
-    eslint-plugin-import: "npm:~2.26.0"
-    eslint-plugin-prettier: "npm:~4.2.1"
-    lint-all: "workspace:~"
-    prettier: "npm:~2.8.7"
-  peerDependencies:
-    prettier: "*"
-  languageName: unknown
-  linkType: soft
-
-"@rocket.chat/string-helpers@workspace:packages/string-helpers":
-  version: 0.0.0-use.local
-  resolution: "@rocket.chat/string-helpers@workspace:packages/string-helpers"
-  dependencies:
-    "@rocket.chat/eslint-config-alt": "workspace:~"
-    "@rocket.chat/prettier-config": "workspace:~"
-    "@types/jest": "npm:~29.5.12"
-    bump: "workspace:~"
-    eslint: "npm:~8.38.0"
-    jest: "npm:~29.7.0"
-    lint-all: "workspace:~"
-    npm-run-all: "npm:^4.1.5"
-    prettier: "npm:~2.8.7"
-    rimraf: "npm:^3.0.2"
-    ts-jest: "npm:~29.2.4"
-    typedoc: "npm:~0.25.13"
-    typescript: "npm:~5.5.4"
-  languageName: unknown
-  linkType: soft
-
-"@rocket.chat/styled@workspace:packages/styled, @rocket.chat/styled@workspace:~":
-  version: 0.0.0-use.local
-  resolution: "@rocket.chat/styled@workspace:packages/styled"
-  dependencies:
-    "@rocket.chat/css-in-js": "workspace:~"
-    "@rocket.chat/eslint-config-alt": "workspace:~"
-    "@rocket.chat/prettier-config": "workspace:~"
-    "@types/jest": "npm:~29.5.12"
-    bump: "workspace:~"
-    eslint: "npm:~8.38.0"
-    jest: "npm:~29.7.0"
-    lint-all: "workspace:~"
-    npm-run-all: "npm:^4.1.5"
-    prettier: "npm:~2.8.7"
-    rimraf: "npm:^3.0.2"
-    ts-jest: "npm:~29.2.4"
-    typedoc: "npm:~0.25.13"
-    typescript: "npm:~5.5.4"
-  languageName: unknown
-  linkType: soft
-
-"@rocket.chat/stylis-logical-props-middleware@workspace:packages/stylis-logical-props-middleware, @rocket.chat/stylis-logical-props-middleware@workspace:~":
-  version: 0.0.0-use.local
-  resolution: "@rocket.chat/stylis-logical-props-middleware@workspace:packages/stylis-logical-props-middleware"
-  dependencies:
-    "@rocket.chat/css-supports": "workspace:~"
-    "@rocket.chat/eslint-config-alt": "workspace:~"
-    "@rocket.chat/prettier-config": "workspace:~"
-    "@types/jest": "npm:~29.5.12"
-    bump: "workspace:~"
-    eslint: "npm:~8.38.0"
-    jest: "npm:~29.7.0"
-    lint-all: "workspace:~"
-    npm-run-all: "npm:^4.1.5"
-    prettier: "npm:~2.8.7"
-    rimraf: "npm:^3.0.2"
-    stylis: "npm:~4.3.2"
-    ts-jest: "npm:~29.2.4"
-    typedoc: "npm:~0.25.13"
-    typescript: "npm:~5.5.4"
-  peerDependencies:
-    stylis: ~4.3.2
-  languageName: unknown
-  linkType: soft
-
 "@rollup/plugin-commonjs@npm:~21.0.3":
   version: 21.0.3
   resolution: "@rollup/plugin-commonjs@npm:21.0.3"
@@ -7332,37 +7363,6 @@ __metadata:
   checksum: 10/0eb147f39eab2830c29120d17e8bfba5aa15dedb940a7378070c67d4de08e9ba8d34068522e15e6b4db94ecaed4ad520e1e517588a36a348d1aa160bc36156ea
   languageName: node
   linkType: hard
-
-"@yuu16/logo@workspace:packages/logo, @yuu16/logo@workspace:~":
-  version: 0.0.0-use.local
-  resolution: "@yuu16/logo@workspace:packages/logo"
-  dependencies:
-    "@rocket.chat/eslint-config-alt": "workspace:~"
-    "@rocket.chat/fuselage-hooks": "workspace:~"
-    "@rocket.chat/fuselage-tokens": "workspace:~"
-    "@rocket.chat/prettier-config": "workspace:~"
-    "@rocket.chat/styled": "workspace:~"
-    "@types/jest": "npm:~29.5.12"
-    "@types/react": "npm:~17.0.80"
-    "@types/react-dom": "npm:~17.0.25"
-    build-logo: "workspace:~"
-    bump: "workspace:~"
-    eslint: "npm:~8.38.0"
-    jest: "npm:~29.7.0"
-    lint-all: "workspace:~"
-    npm-run-all: "npm:^4.1.5"
-    prettier: "npm:~2.8.7"
-    react: "npm:^17.0.2"
-    react-dom: "npm:^17.0.2"
-    rimraf: "npm:^3.0.2"
-    ts-jest: "npm:~29.2.4"
-    typedoc: "npm:~0.25.13"
-    typescript: "npm:~5.5.4"
-  peerDependencies:
-    react: 17.0.2
-    react-dom: 17.0.2
-  languageName: unknown
-  linkType: soft
 
 "JSONStream@npm:^1.0.4":
   version: 1.3.5
@@ -19413,8 +19413,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "scripts@workspace:tools/scripts"
   dependencies:
-    "@rocket.chat/eslint-config-alt": "workspace:~"
-    "@rocket.chat/prettier-config": "workspace:~"
+    "@boolfly.chat/eslint-config-alt": "workspace:~"
+    "@boolfly.chat/prettier-config": "workspace:~"
     "@types/node": "npm:~14.18.42"
     "@typescript-eslint/parser": "npm:~5.58.0"
     cross-env: "npm:^7.0.3"

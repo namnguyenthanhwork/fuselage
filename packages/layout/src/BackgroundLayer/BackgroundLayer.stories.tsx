@@ -1,4 +1,4 @@
-import { Tile } from '@rocket.chat/fuselage';
+import { Tile } from '@boolfly.chat/fuselage';
 import type { StoryFn, Meta } from '@storybook/react';
 
 import BackgroundLayer from './BackgroundLayer';

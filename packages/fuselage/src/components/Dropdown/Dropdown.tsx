@@ -1,5 +1,5 @@
-import type { UsePositionOptions } from '@rocket.chat/fuselage-hooks';
-import { useMediaQuery } from '@rocket.chat/fuselage-hooks';
+import type { UsePositionOptions } from '@boolfly.chat/fuselage-hooks';
+import { useMediaQuery } from '@boolfly.chat/fuselage-hooks';
 import type { ReactNode, Ref, RefObject } from 'react';
 import { forwardRef } from 'react';
 

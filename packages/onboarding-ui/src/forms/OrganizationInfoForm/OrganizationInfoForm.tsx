@@ -1,4 +1,4 @@
-import type { SelectOption } from '@rocket.chat/fuselage';
+import type { SelectOption } from '@boolfly.chat/fuselage';
 import {
   FieldError,
   FieldLabel,
@@ -10,9 +10,9 @@ import {
   TextInput,
   Select,
   Box,
-} from '@rocket.chat/fuselage';
-import { useBreakpoints, useUniqueId } from '@rocket.chat/fuselage-hooks';
-import { ActionLink, Form } from '@rocket.chat/layout';
+} from '@boolfly.chat/fuselage';
+import { useBreakpoints, useUniqueId } from '@boolfly.chat/fuselage-hooks';
+import { ActionLink, Form } from '@boolfly.chat/layout';
 import type { ReactElement, ReactNode } from 'react';
 import { useRef, useEffect } from 'react';
 import type { SubmitHandler } from 'react-hook-form';

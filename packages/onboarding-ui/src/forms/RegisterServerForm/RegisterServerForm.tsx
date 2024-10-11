@@ -8,9 +8,9 @@ import {
   FieldRow,
   FieldError,
   FieldGroup,
-} from '@rocket.chat/fuselage';
-import { useUniqueId, useBreakpoints } from '@rocket.chat/fuselage-hooks';
-import { Form } from '@rocket.chat/layout';
+} from '@boolfly.chat/fuselage';
+import { useUniqueId, useBreakpoints } from '@boolfly.chat/fuselage-hooks';
+import { Form } from '@boolfly.chat/layout';
 import type { ReactElement } from 'react';
 import { useEffect, useRef } from 'react';
 import type { SubmitHandler, Validate } from 'react-hook-form';

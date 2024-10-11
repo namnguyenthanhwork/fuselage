@@ -19,7 +19,7 @@ const createReadableFromString = (content) => {
 
 export const createSvgBuffer = async (icons) => {
   const fontStream = new SVGIcons2SVGFontStream({
-    fontName: 'RocketChat',
+    fontName: 'BoolflyChat',
     fontHeight: 1024,
     normalize: true,
     log: () => undefined,

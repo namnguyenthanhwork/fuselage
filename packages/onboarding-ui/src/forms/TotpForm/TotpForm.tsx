@@ -7,8 +7,8 @@ import {
   FieldLabel,
   FieldRow,
   FieldError,
-} from '@rocket.chat/fuselage';
-import { ActionLink, Form } from '@rocket.chat/layout';
+} from '@boolfly.chat/fuselage';
+import { ActionLink, Form } from '@boolfly.chat/layout';
 import type { ReactElement } from 'react';
 import type { SubmitHandler } from 'react-hook-form';
 import { useForm } from 'react-hook-form';

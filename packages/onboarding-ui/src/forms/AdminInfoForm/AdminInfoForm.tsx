@@ -12,9 +12,9 @@ import {
   FieldRow,
   FieldError,
   FieldHint,
-} from '@rocket.chat/fuselage';
-import { useUniqueId } from '@rocket.chat/fuselage-hooks';
-import { Form } from '@rocket.chat/layout';
+} from '@boolfly.chat/fuselage';
+import { useUniqueId } from '@boolfly.chat/fuselage-hooks';
+import { Form } from '@boolfly.chat/layout';
 import type { ReactElement } from 'react';
 import { useRef, useEffect } from 'react';
 import type { SubmitHandler, Validate } from 'react-hook-form';

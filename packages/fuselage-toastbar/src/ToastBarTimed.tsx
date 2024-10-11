@@ -1,4 +1,4 @@
-import { ToastBar } from '@rocket.chat/fuselage';
+import { ToastBar } from '@boolfly.chat/fuselage';
 import type { ReactElement } from 'react';
 import { useCountdown } from 'react-timing-hooks';
 

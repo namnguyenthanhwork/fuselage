@@ -1,5 +1,5 @@
-import { Box, Margins, Button } from '@rocket.chat/fuselage';
-import { BackgroundLayer, LayoutLogo } from '@rocket.chat/layout';
+import { Box, Margins, Button } from '@boolfly.chat/fuselage';
+import { BackgroundLayer, LayoutLogo } from '@boolfly.chat/layout';
 import type { ReactElement } from 'react';
 import { useTranslation } from 'react-i18next';
 

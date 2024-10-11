@@ -1,5 +1,5 @@
-import tokenTypography from '@rocket.chat/fuselage-tokens/typography.json';
-import { memoize } from '@rocket.chat/memo';
+import tokenTypography from '@boolfly.chat/fuselage-tokens/typography.json';
+import { memoize } from '@boolfly.chat/memo';
 import invariant from 'invariant';
 
 import {

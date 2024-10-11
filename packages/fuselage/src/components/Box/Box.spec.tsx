@@ -1,4 +1,4 @@
-import { css } from '@rocket.chat/css-in-js';
+import { css } from '@boolfly.chat/css-in-js';
 
 import Box from '.';
 import { render } from '../../testing';

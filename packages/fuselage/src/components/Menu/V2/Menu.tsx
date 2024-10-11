@@ -1,4 +1,4 @@
-import type { UsePositionOptions } from '@rocket.chat/fuselage-hooks';
+import type { UsePositionOptions } from '@boolfly.chat/fuselage-hooks';
 import type { ComponentProps, ElementType, ReactElement } from 'react';
 import { cloneElement, useRef } from 'react';
 import type { AriaMenuProps } from 'react-aria';

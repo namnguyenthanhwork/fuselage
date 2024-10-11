@@ -1,5 +1,5 @@
-import { css, keyframes } from '@rocket.chat/css-in-js';
-import { useUniqueId } from '@rocket.chat/fuselage-hooks';
+import { css, keyframes } from '@boolfly.chat/css-in-js';
+import { useUniqueId } from '@boolfly.chat/fuselage-hooks';
 import type { ReactNode, AllHTMLAttributes } from 'react';
 
 import Box from '../Box';

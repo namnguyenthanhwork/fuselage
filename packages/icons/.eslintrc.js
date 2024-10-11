@@ -1,3 +1,3 @@
 module.exports = {
-  extends: '@rocket.chat/eslint-config-alt/minimal',
+  extends: '@boolfly.chat/eslint-config-alt/minimal',
 };

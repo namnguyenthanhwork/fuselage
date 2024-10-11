@@ -1,9 +1,6 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@2.3.1/schema.json",
-  "changelog": [
-    "@changesets/changelog-github",
-    { "repo": "namnguyenthanhwork/fuselage" }
-  ],
+  "changelog": ["@changesets/changelog-github", { "repo": "boolfly/fuselage" }],
   "commit": false,
   "fixed": [],
   "linked": [],

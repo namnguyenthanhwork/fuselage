@@ -1,30 +1,30 @@
 {
-  "name": "@rocket.chat/fuselage-toastbar",
+  "name": "@boolfly.chat/fuselage-toastbar",
   "version": "0.33.0",
   "description": "Fuselage ToastBar component",
   "keywords": [
-    "rocketchat",
-    "rocketchat-fuselage",
+    "boolfly",
+    "boolfly-fuselage",
     "fuselage",
     "toastbar",
     "fuselage-toastbar"
   ],
   "author": {
-    "name": "Rocket.Chat",
-    "url": "https://rocket.chat/"
+    "name": "Boolfly.Chat",
+    "url": "https://subscription.boolfly.com/"
   },
-  "homepage": "https://github.com/RocketChat/fuselage#readme",
+  "homepage": "https://github.com/boolfly/fuselage#readme",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RocketChat/fuselage.git",
+    "url": "git+https://github.com/boolfly/fuselage.git",
     "directory": "packages/fuselage-toastbar"
   },
   "bugs": {
-    "url": "https://github.com/RocketChat/fuselage/issues"
+    "url": "https://github.com/boolfly/fuselage/issues"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -46,13 +46,13 @@
     "bump-next": "bump-next"
   },
   "devDependencies": {
-    "@rocket.chat/eslint-config-alt": "workspace:~",
-    "@rocket.chat/fuselage": "workspace:~",
-    "@rocket.chat/fuselage-hooks": "workspace:~",
-    "@rocket.chat/fuselage-tokens": "workspace:~",
-    "@rocket.chat/layout": "workspace:~",
-    "@rocket.chat/prettier-config": "workspace:~",
-    "@rocket.chat/styled": "workspace:~",
+    "@boolfly.chat/eslint-config-alt": "workspace:~",
+    "@boolfly.chat/fuselage": "workspace:~",
+    "@boolfly.chat/fuselage-hooks": "workspace:~",
+    "@boolfly.chat/fuselage-tokens": "workspace:~",
+    "@boolfly.chat/layout": "workspace:~",
+    "@boolfly.chat/prettier-config": "workspace:~",
+    "@boolfly.chat/styled": "workspace:~",
     "@storybook/addon-essentials": "~8.2.7",
     "@storybook/addon-webpack5-compiler-swc": "~1.0.5",
     "@storybook/react": "~8.2.7",
@@ -80,20 +80,20 @@
     "typescript": "~5.5.4"
   },
   "peerDependencies": {
-    "@rocket.chat/fuselage": "*",
-    "@rocket.chat/fuselage-hooks": "*",
-    "@rocket.chat/fuselage-polyfills": "*",
-    "@rocket.chat/styled": "*",
+    "@boolfly.chat/fuselage": "*",
+    "@boolfly.chat/fuselage-hooks": "*",
+    "@boolfly.chat/fuselage-polyfills": "*",
+    "@boolfly.chat/styled": "*",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "eslintConfig": {
-    "extends": "@rocket.chat/eslint-config-alt/typescript",
+    "extends": "@boolfly.chat/eslint-config-alt/typescript",
     "env": {
       "jest": true
     }
   },
-  "prettier": "@rocket.chat/prettier-config/fuselage",
+  "prettier": "@boolfly.chat/prettier-config/fuselage",
   "volta": {
     "extends": "../../package.json"
   },

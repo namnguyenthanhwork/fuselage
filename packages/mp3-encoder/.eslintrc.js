@@ -1,6 +1,6 @@
 /** @type {import('eslint').ESLint.ConfigData} */
 module.exports = {
-  extends: '@rocket.chat/eslint-config-alt/typescript',
+  extends: '@boolfly.chat/eslint-config-alt/typescript',
   env: {
     jest: true,
   },
