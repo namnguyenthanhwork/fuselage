@@ -953,7 +953,7 @@
   "person-arms-spread": {
     "start": "\ue145"
   },
-  "rocketchat": {
+  "boolflychat": {
     "start": "\ue147"
   },
   "arrow-up": {
@@ -982,5 +982,8 @@
   },
   "pause-shape-unfilled": {
     "start": "\ue15b"
+  },
+  "rocketchat": {
+    "start": "\ue15d"
   }
 }

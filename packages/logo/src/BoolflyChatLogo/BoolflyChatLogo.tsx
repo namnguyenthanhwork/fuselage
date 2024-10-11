@@ -1,13 +1,13 @@
 import colors from '@boolfly.chat/fuselage-tokens/colors.json';
 import type { ReactElement, SVGAttributes } from 'react';
 
-type RocketChatLogoProps = {
+type BoolflyChatLogoProps = {
   color?: SVGAttributes<SVGSVGElement>['fill'];
 };
 
-const RocketChatLogo = ({
+const BoolflyChatLogo = ({
   color = colors.r400,
-}: RocketChatLogoProps): ReactElement => (
+}: BoolflyChatLogoProps): ReactElement => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     width='206.573'
@@ -186,4 +186,4 @@ const RocketChatLogo = ({
   </svg>
 );
 
-export default RocketChatLogo;
+export default BoolflyChatLogo;

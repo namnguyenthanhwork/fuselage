@@ -1,23 +1,23 @@
 import colors from '@boolfly.chat/fuselage-tokens/colors.json';
 import type { ReactElement } from 'react';
 
-import RocketChatLogo from '../RocketChatLogo';
-import { LogoContainer, LogoTag } from './TaggedRocketChatLogo.styles';
+import BoolflyChatLogo from '../BoolflyChatLogo';
+import { LogoContainer, LogoTag } from './TaggedBoolflyChatLogo.styles';
 
-type TaggedRocketChatLogoProps = {
+type TaggedBoolflyChatLogoProps = {
   tagTitle?: string;
   tagBackground?: string;
   color?: string;
 } & React.HTMLAttributes<HTMLDivElement>;
 
-const TaggedRocketChatLogo = ({
+const TaggedBoolflyChatLogo = ({
   tagTitle,
   tagBackground = colors.r400,
   color = colors.white,
   ...props
-}: TaggedRocketChatLogoProps): ReactElement => (
+}: TaggedBoolflyChatLogoProps): ReactElement => (
   <LogoContainer {...props}>
-    <RocketChatLogo />
+    <BoolflyChatLogo />
     {tagTitle && (
       <LogoTag backgroundColor={tagBackground} color={color}>
         {tagTitle}
@@ -26,4 +26,4 @@ const TaggedRocketChatLogo = ({
   </LogoContainer>
 );
 
-export default TaggedRocketChatLogo;
+export default TaggedBoolflyChatLogo;

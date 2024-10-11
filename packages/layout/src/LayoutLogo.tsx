@@ -1,5 +1,5 @@
 import { Box } from '@boolfly.chat/fuselage';
-import { RocketChatLogo } from '@boolfly.chat/logo';
+import { BoolflyChatLogo } from '@boolfly.chat/logo';
 import type { ReactElement } from 'react';
 
 import { useDarkMode } from './DarkModeProvider';
@@ -10,7 +10,7 @@ export const LayoutLogo = (): ReactElement => {
   const isDark = useDarkMode();
   return (
     <Box width='100%' maxWidth={224}>
-      {(isDark ? logoDark : logo) || <RocketChatLogo />}
+      {(isDark ? logoDark : logo) || <BoolflyChatLogo />}
     </Box>
   );
 };

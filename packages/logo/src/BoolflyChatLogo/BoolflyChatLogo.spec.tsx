@@ -1,9 +1,9 @@
 import ReactDOM from 'react-dom';
 
-import TaggedRocketChatLogo from './TaggedRocketChatLogo';
+import BoolflyChatLogo from './BoolflyChatLogo';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<TaggedRocketChatLogo />, div);
+  ReactDOM.render(<BoolflyChatLogo />, div);
   ReactDOM.unmountComponentAtNode(div);
 });

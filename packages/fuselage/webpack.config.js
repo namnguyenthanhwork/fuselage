@@ -16,7 +16,7 @@ module.exports = (env, { mode = 'production' }) => ({
   output: {
     filename: `[name].${mode}.js`,
     path: path.resolve(__dirname, 'dist'),
-    library: 'RocketChatFuselage',
+    library: 'BoolflyChatFuselage',
     libraryTarget: 'umd',
     umdNamedDefine: true,
     environment: {
