@@ -1,20 +1,20 @@
 <!--header-->
 
 <p align="center">
-  <a href="https://rocket.chat" title="Rocket.Chat">
-    <img src="https://github.com/RocketChat/Rocket.Chat.Artwork/raw/master/Logos/2020/png/logo-horizontal-red.png" alt="Rocket.Chat" />
+  <a href="https://subscription.boolfly.com/" title="Boolfly.Chat">
+    <img src="https://github.com/boolfly/Boolfly.Chat.Artwork/raw/master/Logos/2020/png/logo-horizontal-red.png" alt="Boolfly.Chat" />
   </a>
 </p>
 
-# `@rocket.chat/eslint-config-alt`
+# `@boolfly.chat/eslint-config-alt`
 
-> ESLint configuration for Rocket.Chat repositories
+> ESLint configuration for Boolfly.Chat repositories
 
 ---
 
-[![npm@latest](https://img.shields.io/npm/v/@rocket.chat/eslint-config-alt/latest?style=flat-square)](https://www.npmjs.com/package/@rocket.chat/eslint-config-alt/v/latest) [![npm@next](https://img.shields.io/npm/v/@rocket.chat/eslint-config-alt/next?style=flat-square)](https://www.npmjs.com/package/@rocket.chat/eslint-config-alt/v/next) ![npm downloads](https://img.shields.io/npm/dw/@rocket.chat/eslint-config-alt?style=flat-square) ![License: MIT](https://img.shields.io/npm/l/@rocket.chat/eslint-config-alt?style=flat-square)
+[![npm@latest](https://img.shields.io/npm/v/@boolfly.chat/eslint-config-alt/latest?style=flat-square)](https://www.npmjs.com/package/@boolfly.chat/eslint-config-alt/v/latest) [![npm@next](https://img.shields.io/npm/v/@boolfly.chat/eslint-config-alt/next?style=flat-square)](https://www.npmjs.com/package/@boolfly.chat/eslint-config-alt/v/next) ![npm downloads](https://img.shields.io/npm/dw/@boolfly.chat/eslint-config-alt?style=flat-square) ![License: MIT](https://img.shields.io/npm/l/@boolfly.chat/eslint-config-alt?style=flat-square)
 
-![deps](https://img.shields.io/librariesio/release/npm/@rocket.chat/eslint-config-alt?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/@rocket.chat/eslint-config-alt?style=flat-square)
+![deps](https://img.shields.io/librariesio/release/npm/@boolfly.chat/eslint-config-alt?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/@boolfly.chat/eslint-config-alt?style=flat-square)
 
 <!--/header-->
 
@@ -32,14 +32,14 @@ npm i -D @babel/eslint-parser eslint prettier
 yarn add -D @babel/eslint-parser eslint prettier
 ```
 
-Add `@rocket.chat/eslint-config-alt` as a dependency:
+Add `@boolfly.chat/eslint-config-alt` as a dependency:
 
 ```sh
-npm i -D @rocket.chat/eslint-config-alt
+npm i -D @boolfly.chat/eslint-config-alt
 
 # or, if you are using yarn:
 
-yarn add -D @rocket.chat/eslint-config-alt
+yarn add -D @boolfly.chat/eslint-config-alt
 ```
 
 <!--/install(dev)-->
@@ -49,7 +49,7 @@ yarn add -D @rocket.chat/eslint-config-alt
 <!--contributing(msg)-->
 
 Contributions, issues, and feature requests are welcome!<br />
-Feel free to check the [issues](https://github.com/RocketChat/fuselage/issues).
+Feel free to check the [issues](https://github.com/boolfly/fuselage/issues).
 
 <!--/contributing(msg)-->
 

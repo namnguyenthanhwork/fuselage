@@ -1,20 +1,20 @@
 <!--header-->
 
 <p align="center">
-  <a href="https://rocket.chat" title="Rocket.Chat">
-    <img src="https://github.com/RocketChat/Rocket.Chat.Artwork/raw/master/Logos/2020/png/logo-horizontal-red.png" alt="Rocket.Chat" />
+  <a href="https://subscription.boolfly.com/" title="Boolfly.Chat">
+    <img src="https://github.com/boolfly/Boolfly.Chat.Artwork/raw/master/Logos/2020/png/logo-horizontal-red.png" alt="Boolfly.Chat" />
   </a>
 </p>
 
-# `@rocket.chat/fuselage-polyfills`
+# `@boolfly.chat/fuselage-polyfills`
 
 > A bundle of useful poly/ponyfills used by fuselage
 
 ---
 
-[![npm@latest](https://img.shields.io/npm/v/@rocket.chat/fuselage-polyfills/latest?style=flat-square)](https://www.npmjs.com/package/@rocket.chat/fuselage-polyfills/v/latest) [![npm@next](https://img.shields.io/npm/v/@rocket.chat/fuselage-polyfills/next?style=flat-square)](https://www.npmjs.com/package/@rocket.chat/fuselage-polyfills/v/next) ![npm downloads](https://img.shields.io/npm/dw/@rocket.chat/fuselage-polyfills?style=flat-square) ![License: MIT](https://img.shields.io/npm/l/@rocket.chat/fuselage-polyfills?style=flat-square)
+[![npm@latest](https://img.shields.io/npm/v/@boolfly.chat/fuselage-polyfills/latest?style=flat-square)](https://www.npmjs.com/package/@boolfly.chat/fuselage-polyfills/v/latest) [![npm@next](https://img.shields.io/npm/v/@boolfly.chat/fuselage-polyfills/next?style=flat-square)](https://www.npmjs.com/package/@boolfly.chat/fuselage-polyfills/v/next) ![npm downloads](https://img.shields.io/npm/dw/@boolfly.chat/fuselage-polyfills?style=flat-square) ![License: MIT](https://img.shields.io/npm/l/@boolfly.chat/fuselage-polyfills?style=flat-square)
 
-![deps](https://img.shields.io/librariesio/release/npm/@rocket.chat/fuselage-polyfills?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/@rocket.chat/fuselage-polyfills?style=flat-square)
+![deps](https://img.shields.io/librariesio/release/npm/@boolfly.chat/fuselage-polyfills?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/@boolfly.chat/fuselage-polyfills?style=flat-square)
 
 <!--/header-->
 
@@ -22,14 +22,14 @@
 
 <!--install-->
 
-Add `@rocket.chat/fuselage-polyfills` as a dependency:
+Add `@boolfly.chat/fuselage-polyfills` as a dependency:
 
 ```sh
-npm i @rocket.chat/fuselage-polyfills
+npm i @boolfly.chat/fuselage-polyfills
 
 # or, if you are using yarn:
 
-yarn add @rocket.chat/fuselage-polyfills
+yarn add @boolfly.chat/fuselage-polyfills
 ```
 
 <!--/install-->
@@ -39,7 +39,7 @@ yarn add @rocket.chat/fuselage-polyfills
 <!--contributing(msg)-->
 
 Contributions, issues, and feature requests are welcome!<br />
-Feel free to check the [issues](https://github.com/RocketChat/fuselage/issues).
+Feel free to check the [issues](https://github.com/boolfly/fuselage/issues).
 
 <!--/contributing(msg)-->
 

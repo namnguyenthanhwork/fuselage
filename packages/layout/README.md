@@ -1,20 +1,20 @@
 <!--header-->
 
 <p align="center">
-  <a href="https://rocket.chat" title="Rocket.Chat">
-    <img src="https://github.com/RocketChat/Rocket.Chat.Artwork/raw/master/Logos/2020/png/logo-horizontal-red.png" alt="Rocket.Chat" />
+  <a href="https://subscription.boolfly.com/" title="Boolfly.Chat">
+    <img src="https://github.com/boolfly/Boolfly.Chat.Artwork/raw/master/Logos/2020/png/logo-horizontal-red.png" alt="Boolfly.Chat" />
   </a>
 </p>
 
-# `@rocket.chat/layout`
+# `@boolfly.chat/layout`
 
 > Shared Application Layout Components
 
 ---
 
-[![npm@latest](https://img.shields.io/npm/v/@rocket.chat/layout/latest?style=flat-square)](https://www.npmjs.com/package/@rocket.chat/layout/v/latest) [![npm@next](https://img.shields.io/npm/v/@rocket.chat/layout/next?style=flat-square)](https://www.npmjs.com/package/@rocket.chat/layout/v/next) ![react version](https://img.shields.io/npm/dependency-version/@rocket.chat/layout/peer/react?style=flat-square) [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://rocketchat.github.io/fuselage/layout) ![npm downloads](https://img.shields.io/npm/dw/@rocket.chat/layout?style=flat-square) ![License: MIT](https://img.shields.io/npm/l/@rocket.chat/layout?style=flat-square)
+[![npm@latest](https://img.shields.io/npm/v/@boolfly.chat/layout/latest?style=flat-square)](https://www.npmjs.com/package/@boolfly.chat/layout/v/latest) [![npm@next](https://img.shields.io/npm/v/@boolfly.chat/layout/next?style=flat-square)](https://www.npmjs.com/package/@boolfly.chat/layout/v/next) ![react version](https://img.shields.io/npm/dependency-version/@boolfly.chat/layout/peer/react?style=flat-square) [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://boolflychat.github.io/fuselage/layout) ![npm downloads](https://img.shields.io/npm/dw/@boolfly.chat/layout?style=flat-square) ![License: MIT](https://img.shields.io/npm/l/@boolfly.chat/layout?style=flat-square)
 
-![deps](https://img.shields.io/librariesio/release/npm/@rocket.chat/layout?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/@rocket.chat/layout?style=flat-square)
+![deps](https://img.shields.io/librariesio/release/npm/@boolfly.chat/layout?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/@boolfly.chat/layout?style=flat-square)
 
 <!--/header-->
 
@@ -25,21 +25,21 @@
 Firstly, install the peer dependencies (prerequisites):
 
 ```sh
-npm i @rocket.chat/fuselage react react-dom react-i18next
+npm i @boolfly.chat/fuselage react react-dom react-i18next
 
 # or, if you are using yarn:
 
-yarn add @rocket.chat/fuselage react react-dom react-i18next
+yarn add @boolfly.chat/fuselage react react-dom react-i18next
 ```
 
-Add `@rocket.chat/layout` as a dependency:
+Add `@boolfly.chat/layout` as a dependency:
 
 ```sh
-npm i @rocket.chat/layout
+npm i @boolfly.chat/layout
 
 # or, if you are using yarn:
 
-yarn add @rocket.chat/layout
+yarn add @boolfly.chat/layout
 ```
 
 <!--/install-->
@@ -49,7 +49,7 @@ yarn add @rocket.chat/layout
 <!--contributing(msg)-->
 
 Contributions, issues, and feature requests are welcome!<br />
-Feel free to check the [issues](https://github.com/RocketChat/fuselage/issues).
+Feel free to check the [issues](https://github.com/boolfly/fuselage/issues).
 
 <!--/contributing(msg)-->
 

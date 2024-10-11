@@ -1,12 +1,20 @@
-# `@yuu16/logo`
+<!--header-->
 
-> Yuu.Chat logo package
+<p align="center">
+  <a href="https://subscription.boolfly.com/" title="Boolfly.Chat">
+    <img src="https://github.com/boolfly/Boolfly.Chat.Artwork/raw/master/Logos/2020/png/logo-horizontal-red.png" alt="Boolfly.Chat" />
+  </a>
+</p>
+
+# `@boolfly.chat/logo`
+
+> Boolfly.Chat logo package
 
 ---
 
-[![npm@latest](https://img.shields.io/npm/v/@rocket.chat/logo/latest?style=flat-square)](https://www.npmjs.com/package/@rocket.chat/logo/v/latest) [![npm@next](https://img.shields.io/npm/v/@rocket.chat/logo/next?style=flat-square)](https://www.npmjs.com/package/@rocket.chat/logo/v/next) ![react version](https://img.shields.io/npm/dependency-version/@rocket.chat/logo/peer/react?style=flat-square) ![npm downloads](https://img.shields.io/npm/dw/@rocket.chat/logo?style=flat-square) ![License: MIT](https://img.shields.io/npm/l/@rocket.chat/logo?style=flat-square)
+[![npm@latest](https://img.shields.io/npm/v/@boolfly.chat/logo/latest?style=flat-square)](https://www.npmjs.com/package/@boolfly.chat/logo/v/latest) [![npm@next](https://img.shields.io/npm/v/@boolfly.chat/logo/next?style=flat-square)](https://www.npmjs.com/package/@boolfly.chat/logo/v/next) ![react version](https://img.shields.io/npm/dependency-version/@boolfly.chat/logo/peer/react?style=flat-square) ![npm downloads](https://img.shields.io/npm/dw/@boolfly.chat/logo?style=flat-square) ![License: MIT](https://img.shields.io/npm/l/@boolfly.chat/logo?style=flat-square)
 
-![deps](https://img.shields.io/librariesio/release/npm/@rocket.chat/logo?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/@rocket.chat/logo?style=flat-square)
+![deps](https://img.shields.io/librariesio/release/npm/@boolfly.chat/logo?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/@boolfly.chat/logo?style=flat-square)
 
 <!--/header-->
 
@@ -24,14 +32,14 @@ npm i react react-dom
 yarn add react react-dom
 ```
 
-Add `@yuu16/logo` as a dependency:
+Add `@boolfly.chat/logo` as a dependency:
 
 ```sh
-npm i @yuu16/logo
+npm i @boolfly.chat/logo
 
 # or, if you are using yarn:
 
-yarn add @yuu16/logo
+yarn add @boolfly.chat/logo
 ```
 
 <!--/install-->
@@ -41,7 +49,7 @@ yarn add @yuu16/logo
 <!--contributing(msg)-->
 
 Contributions, issues, and feature requests are welcome!<br />
-Feel free to check the [issues](https://github.com/RocketChat/fuselage/issues).
+Feel free to check the [issues](https://github.com/boolfly/fuselage/issues).
 
 <!--/contributing(msg)-->
 

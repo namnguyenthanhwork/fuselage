@@ -1,20 +1,20 @@
 <!--header-->
 
 <p align="center">
-  <a href="https://rocket.chat" title="Rocket.Chat">
-    <img src="https://github.com/RocketChat/Rocket.Chat.Artwork/raw/master/Logos/2020/png/logo-horizontal-red.png" alt="Rocket.Chat" />
+  <a href="https://subscription.boolfly.com/" title="Boolfly.Chat">
+    <img src="https://github.com/boolfly/Boolfly.Chat.Artwork/raw/master/Logos/2020/png/logo-horizontal-red.png" alt="Boolfly.Chat" />
   </a>
 </p>
 
-# `@rocket.chat/icons`
+# `@boolfly.chat/icons`
 
-> Rocket.Chat's Icons
+> Boolfly.Chat's Icons
 
 ---
 
-[![npm@latest](https://img.shields.io/npm/v/@rocket.chat/icons/latest?style=flat-square)](https://www.npmjs.com/package/@rocket.chat/icons/v/latest) [![npm@next](https://img.shields.io/npm/v/@rocket.chat/icons/next?style=flat-square)](https://www.npmjs.com/package/@rocket.chat/icons/v/next) ![npm downloads](https://img.shields.io/npm/dw/@rocket.chat/icons?style=flat-square) ![License: MIT](https://img.shields.io/npm/l/@rocket.chat/icons?style=flat-square)
+[![npm@latest](https://img.shields.io/npm/v/@boolfly.chat/icons/latest?style=flat-square)](https://www.npmjs.com/package/@boolfly.chat/icons/v/latest) [![npm@next](https://img.shields.io/npm/v/@boolfly.chat/icons/next?style=flat-square)](https://www.npmjs.com/package/@boolfly.chat/icons/v/next) ![npm downloads](https://img.shields.io/npm/dw/@boolfly.chat/icons?style=flat-square) ![License: MIT](https://img.shields.io/npm/l/@boolfly.chat/icons?style=flat-square)
 
-![deps](https://img.shields.io/librariesio/release/npm/@rocket.chat/icons?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/@rocket.chat/icons?style=flat-square)
+![deps](https://img.shields.io/librariesio/release/npm/@boolfly.chat/icons?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/@boolfly.chat/icons?style=flat-square)
 
 <!--/header-->
 
@@ -22,14 +22,14 @@
 
 <!--install-->
 
-Add `@rocket.chat/icons` as a dependency:
+Add `@boolfly.chat/icons` as a dependency:
 
 ```sh
-npm i @rocket.chat/icons
+npm i @boolfly.chat/icons
 
 # or, if you are using yarn:
 
-yarn add @rocket.chat/icons
+yarn add @boolfly.chat/icons
 ```
 
 <!--/install-->
@@ -39,13 +39,13 @@ yarn add @rocket.chat/icons
 <!--contributing(msg)-->
 
 Contributions, issues, and feature requests are welcome!<br />
-Feel free to check the [issues](https://github.com/RocketChat/fuselage/issues).
+Feel free to check the [issues](https://github.com/boolfly/fuselage/issues).
 
 <!--/contributing(msg)-->
 
 ### Adding new icons
 
-All the icons should be designed by Rocket.Chat's design crew, following some conventions:
+All the icons should be designed by Boolfly.Chat's design crew, following some conventions:
 
 - The view box must have the dimensions of 32x32 units;
 - Any horizontal assimetry must follow the left-to-right direction.
@@ -110,7 +110,7 @@ yarn lint-and-fix
 To use the fuselage icons, you need to import the css first:
 
 ```css
-@import url('@rocket.chat/icons/dist/rocketchat.css');
+@import url('@boolfly.chat/icons/dist/boolflychat.css');
 ```
 
 Usage Example:

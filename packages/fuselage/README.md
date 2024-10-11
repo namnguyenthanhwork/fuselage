@@ -1,20 +1,20 @@
 <!--header-->
 
 <p align="center">
-  <a href="https://rocket.chat" title="Rocket.Chat">
-    <img src="https://github.com/RocketChat/Rocket.Chat.Artwork/raw/master/Logos/2020/png/logo-horizontal-red.png" alt="Rocket.Chat" />
+  <a href="https://subscription.boolfly.com/" title="Boolfly.Chat">
+    <img src="https://github.com/boolfly/Boolfly.Chat.Artwork/raw/master/Logos/2020/png/logo-horizontal-red.png" alt="Boolfly.Chat" />
   </a>
 </p>
 
-# `@rocket.chat/fuselage`
+# `@boolfly.chat/fuselage`
 
-> Rocket.Chat's React Components Library
+> Boolfly.Chat's React Components Library
 
 ---
 
-[![npm@latest](https://img.shields.io/npm/v/@rocket.chat/fuselage/latest?style=flat-square)](https://www.npmjs.com/package/@rocket.chat/fuselage/v/latest) [![npm@next](https://img.shields.io/npm/v/@rocket.chat/fuselage/next?style=flat-square)](https://www.npmjs.com/package/@rocket.chat/fuselage/v/next) ![react version](https://img.shields.io/npm/dependency-version/@rocket.chat/fuselage/peer/react?style=flat-square) [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://rocketchat.github.io/fuselage/fuselage) ![npm downloads](https://img.shields.io/npm/dw/@rocket.chat/fuselage?style=flat-square) ![License: MIT](https://img.shields.io/npm/l/@rocket.chat/fuselage?style=flat-square)
+[![npm@latest](https://img.shields.io/npm/v/@boolfly.chat/fuselage/latest?style=flat-square)](https://www.npmjs.com/package/@boolfly.chat/fuselage/v/latest) [![npm@next](https://img.shields.io/npm/v/@boolfly.chat/fuselage/next?style=flat-square)](https://www.npmjs.com/package/@boolfly.chat/fuselage/v/next) ![react version](https://img.shields.io/npm/dependency-version/@boolfly.chat/fuselage/peer/react?style=flat-square) [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://boolflychat.github.io/fuselage/fuselage) ![npm downloads](https://img.shields.io/npm/dw/@boolfly.chat/fuselage?style=flat-square) ![License: MIT](https://img.shields.io/npm/l/@boolfly.chat/fuselage?style=flat-square)
 
-![deps](https://img.shields.io/librariesio/release/npm/@rocket.chat/fuselage?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/@rocket.chat/fuselage?style=flat-square)
+![deps](https://img.shields.io/librariesio/release/npm/@boolfly.chat/fuselage?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/@boolfly.chat/fuselage?style=flat-square)
 
 <!--/header-->
 
@@ -25,21 +25,21 @@
 Firstly, install the peer dependencies (prerequisites):
 
 ```sh
-npm i @rocket.chat/fuselage-hooks @rocket.chat/fuselage-polyfills @rocket.chat/icons react react-dom react-virtuoso
+npm i @boolfly.chat/fuselage-hooks @boolfly.chat/fuselage-polyfills @boolfly.chat/icons react react-dom react-virtuoso
 
 # or, if you are using yarn:
 
-yarn add @rocket.chat/fuselage-hooks @rocket.chat/fuselage-polyfills @rocket.chat/icons react react-dom react-virtuoso
+yarn add @boolfly.chat/fuselage-hooks @boolfly.chat/fuselage-polyfills @boolfly.chat/icons react react-dom react-virtuoso
 ```
 
-Add `@rocket.chat/fuselage` as a dependency:
+Add `@boolfly.chat/fuselage` as a dependency:
 
 ```sh
-npm i @rocket.chat/fuselage
+npm i @boolfly.chat/fuselage
 
 # or, if you are using yarn:
 
-yarn add @rocket.chat/fuselage
+yarn add @boolfly.chat/fuselage
 ```
 
 <!--/install-->
@@ -49,7 +49,7 @@ yarn add @rocket.chat/fuselage
 <!--contributing(msg)-->
 
 Contributions, issues, and feature requests are welcome!<br />
-Feel free to check the [issues](https://github.com/RocketChat/fuselage/issues).
+Feel free to check the [issues](https://github.com/boolfly/fuselage/issues).
 
 <!--/contributing(msg)-->
 
@@ -118,14 +118,14 @@ yarn storybook
 To use the fuselage, you need to import the css first:
 
 ```tsx
-import '@rocket.chat/fuselage/dist/fuselage.css';
+import '@boolfly.chat/fuselage/dist/fuselage.css';
 
 const MyButton = () => {
   return <Button>Fuselage Button</<Button>
 };
 ```
 
-Note: If you are using Next.js for development and wish to use Rocket.Chat Fuselage components, you need to dynamically import the component. More on this can be found [here](https://dev.to/vvo/how-to-solve-window-is-not-defined-errors-in-react-and-next-js-5f97#3-third-solution-dynamic-loading).
+Note: If you are using Next.js for development and wish to use Boolfly.Chat Fuselage components, you need to dynamically import the component. More on this can be found [here](https://dev.to/vvo/how-to-solve-window-is-not-defined-errors-in-react-and-next-js-5f97#3-third-solution-dynamic-loading).
 
 Usage Example:
 
@@ -133,7 +133,7 @@ Usage Example:
 import dynamic from 'next/dynamic';
 
 export const TextInput = dynamic(
-  () => import('@rocket.chat/fuselage').then((module) => module.TextInput),
+  () => import('@boolfly.chat/fuselage').then((module) => module.TextInput),
   { ssr: false }
 );
 ```

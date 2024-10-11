@@ -1,20 +1,20 @@
 <!--header-->
 
 <p align="center">
-  <a href="https://rocket.chat" title="Rocket.Chat">
-    <img src="https://github.com/RocketChat/Rocket.Chat.Artwork/raw/master/Logos/2020/png/logo-horizontal-red.png" alt="Rocket.Chat" />
+  <a href="https://subscription.boolfly.com/" title="Boolfly.Chat">
+    <img src="https://github.com/boolfly/Boolfly.Chat.Artwork/raw/master/Logos/2020/png/logo-horizontal-red.png" alt="Boolfly.Chat" />
   </a>
 </p>
 
-# `@rocket.chat/fuselage-toastbar`
+# `@boolfly.chat/fuselage-toastbar`
 
 > Fuselage ToastBar component
 
 ---
 
-[![npm@latest](https://img.shields.io/npm/v/@rocket.chat/fuselage-toastbar/latest?style=flat-square)](https://www.npmjs.com/package/@rocket.chat/fuselage-toastbar/v/latest) [![npm@next](https://img.shields.io/npm/v/@rocket.chat/fuselage-toastbar/next?style=flat-square)](https://www.npmjs.com/package/@rocket.chat/fuselage-toastbar/v/next) ![react version](https://img.shields.io/npm/dependency-version/@rocket.chat/fuselage-toastbar/peer/react?style=flat-square) [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://rocketchat.github.io/fuselage/fuselage-toastbar) ![npm downloads](https://img.shields.io/npm/dw/@rocket.chat/fuselage-toastbar?style=flat-square) ![License: MIT](https://img.shields.io/npm/l/@rocket.chat/fuselage-toastbar?style=flat-square)
+[![npm@latest](https://img.shields.io/npm/v/@boolfly.chat/fuselage-toastbar/latest?style=flat-square)](https://www.npmjs.com/package/@boolfly.chat/fuselage-toastbar/v/latest) [![npm@next](https://img.shields.io/npm/v/@boolfly.chat/fuselage-toastbar/next?style=flat-square)](https://www.npmjs.com/package/@boolfly.chat/fuselage-toastbar/v/next) ![react version](https://img.shields.io/npm/dependency-version/@boolfly.chat/fuselage-toastbar/peer/react?style=flat-square) [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://boolflychat.github.io/fuselage/fuselage-toastbar) ![npm downloads](https://img.shields.io/npm/dw/@boolfly.chat/fuselage-toastbar?style=flat-square) ![License: MIT](https://img.shields.io/npm/l/@boolfly.chat/fuselage-toastbar?style=flat-square)
 
-![deps](https://img.shields.io/librariesio/release/npm/@rocket.chat/fuselage-toastbar?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/@rocket.chat/fuselage-toastbar?style=flat-square)
+![deps](https://img.shields.io/librariesio/release/npm/@boolfly.chat/fuselage-toastbar?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/@boolfly.chat/fuselage-toastbar?style=flat-square)
 
 <!--/header-->
 
@@ -25,21 +25,21 @@
 Firstly, install the peer dependencies (prerequisites):
 
 ```sh
-npm i @rocket.chat/fuselage @rocket.chat/fuselage-hooks @rocket.chat/fuselage-polyfills @rocket.chat/styled react react-dom
+npm i @boolfly.chat/fuselage @boolfly.chat/fuselage-hooks @boolfly.chat/fuselage-polyfills @boolfly.chat/styled react react-dom
 
 # or, if you are using yarn:
 
-yarn add @rocket.chat/fuselage @rocket.chat/fuselage-hooks @rocket.chat/fuselage-polyfills @rocket.chat/styled react react-dom
+yarn add @boolfly.chat/fuselage @boolfly.chat/fuselage-hooks @boolfly.chat/fuselage-polyfills @boolfly.chat/styled react react-dom
 ```
 
-Add `@rocket.chat/fuselage-toastbar` as a dependency:
+Add `@boolfly.chat/fuselage-toastbar` as a dependency:
 
 ```sh
-npm i @rocket.chat/fuselage-toastbar
+npm i @boolfly.chat/fuselage-toastbar
 
 # or, if you are using yarn:
 
-yarn add @rocket.chat/fuselage-toastbar
+yarn add @boolfly.chat/fuselage-toastbar
 ```
 
 <!--/install-->
@@ -49,7 +49,7 @@ yarn add @rocket.chat/fuselage-toastbar
 <!--contributing(msg)-->
 
 Contributions, issues, and feature requests are welcome!<br />
-Feel free to check the [issues](https://github.com/RocketChat/fuselage/issues).
+Feel free to check the [issues](https://github.com/boolfly/fuselage/issues).
 
 <!--/contributing(msg)-->
 

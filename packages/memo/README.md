@@ -1,20 +1,20 @@
 <!--header-->
 
 <p align="center">
-  <a href="https://rocket.chat" title="Rocket.Chat">
-    <img src="https://github.com/RocketChat/Rocket.Chat.Artwork/raw/master/Logos/2020/png/logo-horizontal-red.png" alt="Rocket.Chat" />
+  <a href="https://subscription.boolfly.com/" title="Boolfly.Chat">
+    <img src="https://github.com/boolfly/Boolfly.Chat.Artwork/raw/master/Logos/2020/png/logo-horizontal-red.png" alt="Boolfly.Chat" />
   </a>
 </p>
 
-# `@rocket.chat/memo`
+# `@boolfly.chat/memo`
 
 > Memoization utilities
 
 ---
 
-[![npm@latest](https://img.shields.io/npm/v/@rocket.chat/memo/latest?style=flat-square)](https://www.npmjs.com/package/@rocket.chat/memo/v/latest) [![npm@next](https://img.shields.io/npm/v/@rocket.chat/memo/next?style=flat-square)](https://www.npmjs.com/package/@rocket.chat/memo/v/next) ![npm downloads](https://img.shields.io/npm/dw/@rocket.chat/memo?style=flat-square) ![License: MIT](https://img.shields.io/npm/l/@rocket.chat/memo?style=flat-square)
+[![npm@latest](https://img.shields.io/npm/v/@boolfly.chat/memo/latest?style=flat-square)](https://www.npmjs.com/package/@boolfly.chat/memo/v/latest) [![npm@next](https://img.shields.io/npm/v/@boolfly.chat/memo/next?style=flat-square)](https://www.npmjs.com/package/@boolfly.chat/memo/v/next) ![npm downloads](https://img.shields.io/npm/dw/@boolfly.chat/memo?style=flat-square) ![License: MIT](https://img.shields.io/npm/l/@boolfly.chat/memo?style=flat-square)
 
-![deps](https://img.shields.io/librariesio/release/npm/@rocket.chat/memo?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/@rocket.chat/memo?style=flat-square)
+![deps](https://img.shields.io/librariesio/release/npm/@boolfly.chat/memo?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/@boolfly.chat/memo?style=flat-square)
 
 <!--/header-->
 
@@ -22,14 +22,14 @@
 
 <!--install-->
 
-Add `@rocket.chat/memo` as a dependency:
+Add `@boolfly.chat/memo` as a dependency:
 
 ```sh
-npm i @rocket.chat/memo
+npm i @boolfly.chat/memo
 
 # or, if you are using yarn:
 
-yarn add @rocket.chat/memo
+yarn add @boolfly.chat/memo
 ```
 
 <!--/install-->
@@ -39,7 +39,7 @@ yarn add @rocket.chat/memo
 <!--contributing(msg)-->
 
 Contributions, issues, and feature requests are welcome!<br />
-Feel free to check the [issues](https://github.com/RocketChat/fuselage/issues).
+Feel free to check the [issues](https://github.com/boolfly/fuselage/issues).
 
 <!--/contributing(msg)-->
 
