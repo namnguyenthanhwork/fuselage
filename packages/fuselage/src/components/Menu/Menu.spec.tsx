@@ -29,7 +29,6 @@ describe('[Menu Component]', () => {
   it('should have no options when click twice', async () => {
     render(<Simple {...Simple.args} />);
     const button = screen.getByTestId('menu');
-    await userEvent.click(button);
     await act(async () => {
       await userEvent.click(button);
       expect(menuOption).toBeNull();
