@@ -1,5 +1,5 @@
-import type { AriaSelectProps } from '@react-types/select';
 import { useMergedRefs, useResizeObserver } from '@boolfly.chat/fuselage-hooks';
+import type { AriaSelectProps } from '@react-types/select';
 import type { AllHTMLAttributes, Key, Ref } from 'react';
 import { forwardRef } from 'react';
 import {

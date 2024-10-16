@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useMergedRefs } from '@boolfly.chat/fuselage-hooks';
 import type {
   ComponentProps,
