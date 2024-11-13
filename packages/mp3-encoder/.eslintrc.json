@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/eslintrc",
+  "extends": "@boolfly.chat/eslint-config-alt/minimal",
+  "env": {
+    "jest": true
+  },
+  "ignorePatterns": ["dist", "node_modules", "src/lame/*.js"],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "extends": "@boolfly.chat/eslint-config-alt/typescript",
+      "rules": {
+        "new-cap": "off"
+      }
+    }
+  ]
+}
